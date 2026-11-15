@@ -1,0 +1,5 @@
+Goal x: 0.4500 m
+Final foot x: 0.4500 m
+Status: landing inside goal tolerance (residual energy allowed)
+{'hop': 1, 'foot_start': 0.0, 'foot_end': 0.12287478620737748, 'alpha_reference': 0.26033936583407846, 'touchdown_time': 0.4793390539302698, 'takeoff_time': 0.0861461797401386, 'impact_loss': 0.0036446771427254276, 'impact_friction_shortfall': 0.022217553701208315, 'spring_min_length': 0.33, 'min_stance_normal': 0.0, 'max_friction_margin': 4.6629367034256575e-15, 'goal_crossings': 0}
+{'hop': 2, 'foot_start': 0.12287478620737748, 'foot_end': 0.4499856074491641, 'alpha_reference': 0.2363108382783762, 'touchdown_time': 0.9778326419640014, 'takeoff_time': 0.6492224570934773, 'impact_loss': 0.035061897261356556, 'impact_friction_shortfall': 0.06541893351587802, 'spring_min_length': 0.340114050008624, 'min_stance_normal': 1.7763568394002505e-15, 'max_friction_margin': 1.5265566588595902e-16, 'goal_crossings': 0}

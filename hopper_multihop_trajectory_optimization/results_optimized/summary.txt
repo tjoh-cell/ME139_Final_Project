@@ -1,0 +1,6 @@
+Goal x: 10.0000 m
+Final foot x: 9.9999 m
+Status: landing inside goal tolerance (residual energy allowed)
+{'hop': 1, 'foot_start': 0.0, 'foot_end': -0.17594765616468663, 'alpha_reference': -0.03622325850054686, 'touchdown_time': 2.0647442819844883, 'takeoff_time': 0.07741362611829593, 'impact_loss': 5.546538437073423e-05, 'impact_friction_shortfall': 0.0012803792277438358, 'spring_min_length': 0.5, 'min_stance_normal': 0.0, 'max_friction_margin': 1.518525092453725e-15, 'goal_crossings': 0}
+{'hop': 2, 'foot_start': -0.17594765616468663, 'foot_end': 2.651768264988694, 'alpha_reference': 0.349778296130354, 'touchdown_time': 4.037367903637897, 'takeoff_time': 2.2172348268190554, 'impact_loss': 0.01645178211407483, 'impact_friction_shortfall': 0.02205129220674218, 'spring_min_length': 0.5358743894883026, 'min_stance_normal': 0.0, 'max_friction_margin': 1.3183898417423734e-15, 'goal_crossings': 0}
+{'hop': 3, 'foot_start': 2.651768264988694, 'foot_end': 9.999943920683458, 'alpha_reference': 0.36402724241664924, 'touchdown_time': 5.5636159022468705, 'takeoff_time': 4.1863186771777166, 'impact_loss': 0.18636773223355618, 'impact_friction_shortfall': 0.07421731700047651, 'spring_min_length': 0.584195190369268, 'min_stance_normal': -8.881784197001252e-15, 'max_friction_margin': 2.864375403532904e-14, 'goal_crossings': 0}

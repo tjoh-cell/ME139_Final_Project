@@ -1,0 +1,207 @@
+{
+  "robot": {
+    "m": 1.0,
+    "Ib": 0.015,
+    "Iw": 0.003,
+    "k": 450.0,
+    "c": 1.0,
+    "l0": 1.0,
+    "g": 9.81,
+    "tau_max": 16.0,
+    "wheel_speed_max": 160.0,
+    "mu": 1.5,
+    "min_length": 0.18,
+    "max_stance": 1.2,
+    "max_flight": 3.2
+  },
+  "control": {
+    "stance_kp": 20.0,
+    "stance_kd": 0.65,
+    "flight_kp": 1.3,
+    "flight_kd": 0.24,
+    "flight_target": 0.0,
+    "max_tilt_reference": 0.65
+  },
+  "planning_options": {
+    "lookahead": 3,
+    "safety_max_hops": 4,
+    "max_crossings": 2,
+    "arrival_tolerance": 0.05,
+    "maxfev_per_horizon": 35,
+    "hop_cost": 0.015,
+    "tilt_cost": 0.005,
+    "friction_cost": 0.0003,
+    "replan_each_hop": true,
+    "verbose": true
+  },
+  "status": "landing inside goal tolerance (residual energy allowed)",
+  "target": 10.0,
+  "hops": [
+    {
+      "hop": 1,
+      "foot_start": 0.0,
+      "foot_end": -0.17594765616468663,
+      "alpha_reference": -0.03622325850054686,
+      "touchdown_time": 2.0647442819844883,
+      "takeoff_time": 0.07741362611829593,
+      "impact_loss": 5.546538437073423e-05,
+      "impact_friction_shortfall": 0.0012803792277438358,
+      "spring_min_length": 0.5,
+      "min_stance_normal": 0.0,
+      "max_friction_margin": 1.518525092453725e-15,
+      "goal_crossings": 0
+    },
+    {
+      "hop": 2,
+      "foot_start": -0.17594765616468663,
+      "foot_end": 2.651768264988694,
+      "alpha_reference": 0.349778296130354,
+      "touchdown_time": 4.037367903637897,
+      "takeoff_time": 2.2172348268190554,
+      "impact_loss": 0.01645178211407483,
+      "impact_friction_shortfall": 0.02205129220674218,
+      "spring_min_length": 0.5358743894883026,
+      "min_stance_normal": 0.0,
+      "max_friction_margin": 1.3183898417423734e-15,
+      "goal_crossings": 0
+    },
+    {
+      "hop": 3,
+      "foot_start": 2.651768264988694,
+      "foot_end": 9.999973065741132,
+      "alpha_reference": 0.3640430194814037,
+      "touchdown_time": 5.56361332309926,
+      "takeoff_time": 4.186318658955468,
+      "impact_loss": 0.1863699328034656,
+      "impact_friction_shortfall": 0.07421775515416851,
+      "spring_min_length": 0.5841981258764962,
+      "min_stance_normal": -7.105427357601002e-15,
+      "max_friction_margin": 2.1760371282653068e-14,
+      "goal_crossings": 0
+    }
+  ],
+  "peak_relative_wheel_speed_rad_s": 164.3276331564885,
+  "peak_abs_motor_mechanical_power_W": 1005.4803110787226,
+  "candidates_at_each_replan": [
+    {
+      "at_hop": 1,
+      "from_foot": 0.0,
+      "selected_horizon": 3,
+      "candidates": [
+        {
+          "horizon": 1,
+          "score": 6217.0120027886305,
+          "refs": [
+            0.65
+          ],
+          "predicted_terminal_x": 2.1152077451476177,
+          "feasible": true,
+          "evaluations": 20
+        },
+        {
+          "horizon": 2,
+          "score": 34.58595538615944,
+          "refs": [
+            0.65,
+            0.38725250539176803
+          ],
+          "predicted_terminal_x": 9.412181219955457,
+          "feasible": true,
+          "evaluations": 38
+        },
+        {
+          "horizon": 3,
+          "score": 0.048604299984985014,
+          "refs": [
+            -0.03622325850054686,
+            0.349778296130354,
+            0.3614333042897891
+          ],
+          "predicted_terminal_x": 9.995171905933288,
+          "feasible": true,
+          "evaluations": 37
+        }
+      ]
+    },
+    {
+      "at_hop": 2,
+      "from_foot": -0.17594765616468663,
+      "selected_horizon": 2,
+      "candidates": [
+        {
+          "horizon": 1,
+          "score": 4799.359360259045,
+          "refs": [
+            0.65
+          ],
+          "predicted_terminal_x": 3.072271477919121,
+          "feasible": true,
+          "evaluations": 20
+        },
+        {
+          "horizon": 2,
+          "score": 0.03354803988165894,
+          "refs": [
+            0.349778296130354,
+            0.36144996986062916
+          ],
+          "predicted_terminal_x": 9.99522371486687,
+          "feasible": true,
+          "evaluations": 29
+        },
+        {
+          "horizon": 3,
+          "score": 0.04655321308549434,
+          "refs": [
+            0.23118388312136753,
+            0.334134687916132,
+            0.3748872183813455
+          ],
+          "predicted_terminal_x": 9.999511929016107,
+          "feasible": true,
+          "evaluations": 38
+        }
+      ]
+    },
+    {
+      "at_hop": 3,
+      "from_foot": 2.651768264988694,
+      "selected_horizon": 1,
+      "candidates": [
+        {
+          "horizon": 1,
+          "score": 0.015664294735527138,
+          "refs": [
+            0.3640430194814037
+          ],
+          "predicted_terminal_x": 9.999992493221942,
+          "feasible": true,
+          "evaluations": 19
+        },
+        {
+          "horizon": 2,
+          "score": 52.42347443704602,
+          "refs": [
+            0.3870431795893651,
+            0.4791497510080286
+          ],
+          "predicted_terminal_x": 10.723820252709007,
+          "feasible": true,
+          "evaluations": 38
+        },
+        {
+          "horizon": 3,
+          "score": 160.30079004820942,
+          "refs": [
+            0.4067520795892887,
+            0.43989166505176003,
+            0.253073409487281
+          ],
+          "predicted_terminal_x": 11.265913398924726,
+          "feasible": true,
+          "evaluations": 38
+        }
+      ]
+    }
+  ]
+}
