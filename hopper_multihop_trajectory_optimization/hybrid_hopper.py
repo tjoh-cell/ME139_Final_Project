@@ -121,13 +121,21 @@ def stance_torque(y,alpha_ref,p:Robot,c:Control):
     return contact_limited_torque(desired,y,p)
 
 
-def flight_torque(y,p:Robot,c:Control):
-    desired=c.flight_kp*(y[4]-c.flight_target)+c.flight_kd*y[6]
+def flight_torque(y,p:Robot,c:Control,flight_target=None):
+    """Wheel attitude torque. Optional per-hop flight target keeps old API working.
+
+    Targets are body pitch angles relative to upright (not launch angles).
+    """
+    if flight_target is None:
+        flight_target=c.flight_target
+    error=np.arctan2(np.sin(y[4]-flight_target),
+                     np.cos(y[4]-flight_target))
+    desired=c.flight_kp*error+c.flight_kd*y[6]
     return limit_wheel_torque(desired,y[7],p)
 
 
-def flight_rhs(t,y,p:Robot,c:Control):
-    tau=flight_torque(y,p,c)
+def flight_rhs(t,y,p:Robot,c:Control,flight_target=None):
+    tau=flight_torque(y,p,c,flight_target)
     x,z,vx,vz,a,phi,ad,phd=y
     return np.array([vx,vz,0.,-p.g,ad,phd,-tau/p.Ib,tau/p.Iw])
 
@@ -212,13 +220,13 @@ def simulate_stance(y0, foot_x, alpha_ref, p:Robot, c:Control,
     hardstop.terminal=True;hardstop.direction=-1
     res=solve_ivp(f,(start_time,start_time+p.max_stance),y0,
                   events=[takeoff,bottom,hardstop],
-                  rtol=1e-9 if accurate else 4e-7,
+                  rtol=1e-9 if accurate else 2e-6,
                   atol=1e-10 if accurate else 1e-8,
-                  max_step=0.0015 if accurate else 0.004)
+                  max_step=0.0015 if accurate else 0.012)
     event_name='takeoff' if len(res.t_events[0]) else (
                'hardstop' if len(res.t_events[2]) else 'stalled')
     # enforce (and diagnose) ground force and friction throughout stance
-    ts=np.linspace(res.t[0],res.t[-1],max(75,int((res.t[-1]-res.t[0])/0.003)+1))
+    ts=np.linspace(res.t[0],res.t[-1],max(75,int((res.t[-1]-res.t[0])/(0.003 if accurate else 0.012))+1))
     ys=np.array([np.interp(ts,res.t,res.y[i]) for i in range(6)]).T
     taus=[]; valid=[]; fxs=[];fns=[]
     for y in ys:
@@ -238,21 +246,22 @@ def simulate_stance(y0, foot_x, alpha_ref, p:Robot, c:Control,
                 minimum_length=float(min(res.y[2])))
 
 
-def simulate_flight(y0,p:Robot,c:Control,start_time=0.,accurate=False):
+def simulate_flight(y0,p:Robot,c:Control,start_time=0.,accurate=False,flight_target=None):
     y0=np.asarray(y0,dtype=float)
     def touchdown(t,y):return y[1]-p.l0*np.cos(y[4])
     touchdown.terminal=True;touchdown.direction=-1
-    res=solve_ivp(lambda t,y:flight_rhs(t,y,p,c),
+    res=solve_ivp(lambda t,y:flight_rhs(t,y,p,c,flight_target),
                   (start_time,start_time+p.max_flight),y0,events=touchdown,
-                  rtol=1e-9 if accurate else 4e-7,
+                  rtol=1e-9 if accurate else 2e-6,
                   atol=1e-10 if accurate else 1e-8,
-                  max_step=0.0015 if accurate else 0.004)
+                  max_step=0.0015 if accurate else 0.012)
     event_name='touchdown' if len(res.t_events[0]) else 'no_touchdown'
-    ts=np.linspace(res.t[0],res.t[-1],max(75,int((res.t[-1]-res.t[0])/0.003)+1))
+    ts=np.linspace(res.t[0],res.t[-1],max(75,int((res.t[-1]-res.t[0])/(0.003 if accurate else 0.012))+1))
     ys=np.array([np.interp(ts,res.t,res.y[i]) for i in range(8)]).T
-    us=np.array([flight_torque(y,p,c) for y in ys])
+    us=np.array([flight_torque(y,p,c,flight_target) for y in ys])
     return dict(phase='flight',t=ts,y=ys,u=us,
-                state=res.y[:,-1].copy(),end=float(res.t[-1]),event=event_name)
+                state=res.y[:,-1].copy(),end=float(res.t[-1]),event=event_name,
+                flight_reference=float(c.flight_target if flight_target is None else flight_target))
 
 
 def plan_tilt_one_hop(y0,foot_x,goal,p:Robot,c:Control,step_limit=0.17,

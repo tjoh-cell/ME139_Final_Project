@@ -26,12 +26,28 @@ def main():
     a.add_argument('--mu',type=float)
     a.add_argument('--stance-kp',type=float)
     a.add_argument('--stance-kd',type=float)
-    a.add_argument('--max-tilt',type=float,help='Maximum tilt REFERENCE [degrees], not guaranteed takeoff angle')
+    a.add_argument('--max-tilt',type=float,help='Maximum stance tilt reference [degrees]')
+    a.add_argument('--flight-kp',type=float,help='Flight attitude PD proportional gain')
+    a.add_argument('--flight-kd',type=float,help='Flight attitude PD derivative gain')
+    a.add_argument('--max-flight-ref',type=float,default=35.,
+                   help='Maximum magnitude of separately optimized flight pitch reference [degrees]')
+    a.add_argument('--max-touchdown-angle',type=float,default=30.,
+                   help='Hard limit on absolute touchdown body pitch [degrees]')
+    a.add_argument('--max-touchdown-rate',type=float,default=2.,
+                   help='Hard limit on absolute touchdown body pitch rate [rad/s]')
+    a.add_argument('--min-flight-time',type=float,default=.06,
+                   help='Reject flights shorter than this many seconds')
+    a.add_argument('--min-flight-rise',type=float,default=.025,
+                   help='Reject flights with smaller COM apex rise above takeoff [m]')
+    a.add_argument('--min-progress',type=float,default=.01,
+                   help='Displacement smaller than this counts as a no-progress hop [m]')
+    a.add_argument('--max-stalled-hops',type=int,default=2,
+                   help='Stop after this many consecutive no-progress hops')
     a.add_argument('--lookahead',type=int,default=3,help='Compare 1..N optimized hop sequences at a time')
     a.add_argument('--safety-max-hops',type=int,default=8,help='Emergency simulation cap, NOT chosen number of hops')
     a.add_argument('--stop-after-crossings',type=int,default=2,help='Stop after this many reversals across goal; default 2')
     a.add_argument('--tolerance',type=float,default=.05)
-    a.add_argument('--maxfev',type=int,default=70,help='Powell max evaluations for each candidate N')
+    a.add_argument('--maxfev',type=int,default=35,help='Powell max evaluations per horizon (increase for higher quality, slower optimization)')
     a.add_argument('--execute-plan',action='store_true',help='Execute chosen multi-hop plan before replanning')
     a.add_argument('--output',default='results_optimized')
     a.add_argument('--no-gif',action='store_true')
@@ -48,17 +64,32 @@ def main():
                 wheel_speed_max=args.wheel_speed_max,mu=args.mu)
     p=replace(p,**{key:val for key,val in params.items() if val is not None})
     ctl=dict(stance_kp=args.stance_kp,stance_kd=args.stance_kd,
+             flight_kp=args.flight_kp,flight_kd=args.flight_kd,
              max_tilt_reference=None if args.max_tilt is None else args.max_tilt*3.141592653589793/180.)
     c=replace(c,**{key:val for key,val in ctl.items() if val is not None})
-    if args.lookahead<1 or args.safety_max_hops<1 or args.stop_after_crossings<1:
-        a.error('lookahead, safety-max-hops, stop-after-crossings must be positive')
+    if min(args.lookahead,args.safety_max_hops,args.stop_after_crossings,
+           args.max_stalled_hops)<1:
+        a.error('lookahead, safety-max-hops, stop-after-crossings, max-stalled-hops must be positive')
+    if not 0 < args.max_touchdown_angle <= 90 or args.max_touchdown_rate <= 0:
+        a.error('touchdown angle must be in (0, 90] deg and rate must be >0')
+    if args.max_flight_ref < 0 or args.min_flight_time < 0 or args.min_flight_rise < 0:
+        a.error('flight ref/time/rise bounds cannot be negative')
     opts=PlanningOptions(lookahead=args.lookahead,safety_max_hops=args.safety_max_hops,
              max_crossings=args.stop_after_crossings,arrival_tolerance=args.tolerance,
              maxfev_per_horizon=args.maxfev,
+             max_touchdown_angle_deg=args.max_touchdown_angle,
+             max_touchdown_pitch_rate=args.max_touchdown_rate,
+             max_flight_reference_deg=args.max_flight_ref,
+             min_flight_time=args.min_flight_time,
+             min_flight_rise=args.min_flight_rise,
+             min_progress=args.min_progress,
+             max_stalled_hops=args.max_stalled_hops,
              replan_each_hop=not args.execute_plan)
     print(f'Robot: {p}\nControl: {c}')
     print(f'Compare 1..{opts.lookahead} hops, target={args.target:+.3f} m, '
-          f'stop after {opts.max_crossings} goal crossings or tolerance')
+          f'stop after {opts.max_crossings} goal crossings or tolerance; '
+          f'SAFE TD requires |pitch|≤{opts.max_touchdown_angle_deg:.1f}°, '
+          f'|pitch_rate|≤{opts.max_touchdown_pitch_rate:.2f} rad/s')
     result=run_optimized_hops(p,c,args.target,args.compression,opts)
     print(f"RESULT: {result['status']}; x={result['final_foot_x']:+.3f} m; "
           f"executed={len(result['hops'])} hops; crossings={result['goal_crossings']}")

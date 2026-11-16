@@ -27,218 +27,410 @@
     "safety_max_hops": 10,
     "max_crossings": 2,
     "arrival_tolerance": 0.05,
-    "maxfev_per_horizon": 70,
+    "maxfev_per_horizon": 35,
     "hop_cost": 0.015,
     "tilt_cost": 0.005,
     "friction_cost": 0.0003,
+    "landing_angle_cost": 8.0,
+    "landing_rate_cost": 1.0,
+    "max_touchdown_angle_deg": 30.0,
+    "max_touchdown_pitch_rate": 2.0,
+    "max_flight_reference_deg": 35.0,
+    "min_flight_time": 0.06,
+    "min_flight_rise": 0.025,
+    "min_progress": 0.01,
+    "max_stalled_hops": 2,
     "replan_each_hop": true,
     "verbose": true
   },
-  "status": "landing inside goal tolerance (residual energy allowed)",
-  "target": 10.0,
+  "status": "SAFE touchdown inside goal tolerance (residual energy allowed)",
+  "target": 35.0,
   "hops": [
     {
       "hop": 1,
       "foot_start": 0.0,
-      "foot_end": -0.17594765616468663,
-      "alpha_reference": -0.03622325850054686,
-      "touchdown_time": 2.0647442819844883,
-      "takeoff_time": 0.07741362611829593,
-      "impact_loss": 5.546538437073423e-05,
-      "impact_friction_shortfall": 0.0012803792277438358,
-      "spring_min_length": 0.5,
-      "min_stance_normal": 0.0,
-      "max_friction_margin": 1.518525092453725e-15,
+      "foot_end": 3.159681666374932,
+      "alpha_reference": 0.6356922438417045,
+      "flight_reference": 0.019613397006392363,
+      "touchdown_pitch_rad": 0.019613396312034143,
+      "touchdown_pitch_deg": 1.1237648305970103,
+      "touchdown_pitch_rate": 8.219900768156134e-09,
+      "flight_duration": 2.3980005107786044,
+      "flight_rise": 7.0524935255137615,
+      "touchdown_safe": true,
+      "touchdown_time": 2.4749213041805596,
+      "takeoff_time": 0.07692079340195494,
+      "impact_loss": 0.017246746071194252,
+      "impact_friction_shortfall": 0.0219092373094123,
+      "spring_min_length": 0.4,
+      "min_stance_normal": -1.7763568394002505e-15,
+      "max_friction_margin": 5.943162628696541e-15,
       "goal_crossings": 0
     },
     {
       "hop": 2,
-      "foot_start": -0.17594765616468663,
-      "foot_end": 2.651768264988694,
-      "alpha_reference": 0.349778296130354,
-      "touchdown_time": 4.037367903637897,
-      "takeoff_time": 2.2172348268190554,
-      "impact_loss": 0.01645178211407483,
-      "impact_friction_shortfall": 0.02205129220674218,
-      "spring_min_length": 0.5358743894883026,
-      "min_stance_normal": 0.0,
-      "max_friction_margin": 1.3183898417423734e-15,
+      "foot_start": 3.159681666374932,
+      "foot_end": 16.819820435079407,
+      "alpha_reference": 0.6412310327445774,
+      "flight_reference": -0.4847405408726071,
+      "touchdown_pitch_rad": -0.48473302477504293,
+      "touchdown_pitch_deg": -27.773156510220332,
+      "touchdown_pitch_rate": -6.619421264268719e-05,
+      "flight_duration": 1.5881115989966728,
+      "flight_rise": 3.131842908347296,
+      "touchdown_safe": true,
+      "touchdown_time": 4.209187774819514,
+      "takeoff_time": 2.6210761758228416,
+      "impact_loss": 0.08617362628021397,
+      "impact_friction_shortfall": 0.04465392124924694,
+      "spring_min_length": 0.46230367251220317,
+      "min_stance_normal": 0.2415869508353925,
+      "max_friction_margin": -0.030003625227917663,
       "goal_crossings": 0
     },
     {
       "hop": 3,
-      "foot_start": 2.651768264988694,
-      "foot_end": 9.999943920683458,
-      "alpha_reference": 0.36402724241664924,
-      "touchdown_time": 5.5636159022468705,
-      "takeoff_time": 4.1863186771777166,
-      "impact_loss": 0.18636773223355618,
-      "impact_friction_shortfall": 0.07421731700047651,
-      "spring_min_length": 0.584195190369268,
-      "min_stance_normal": -8.881784197001252e-15,
-      "max_friction_margin": 2.864375403532904e-14,
+      "foot_start": 16.819820435079407,
+      "foot_end": 28.5610530354869,
+      "alpha_reference": 0.5733824383233842,
+      "flight_reference": -0.29644775202826107,
+      "touchdown_pitch_rad": -0.2964354728301982,
+      "touchdown_pitch_deg": -16.984501491135344,
+      "touchdown_pitch_rate": -7.636012565685033e-05,
+      "flight_duration": 1.498381970104882,
+      "flight_rise": 2.7811377685386764,
+      "touchdown_safe": true,
+      "touchdown_time": 5.842557977875378,
+      "takeoff_time": 4.344176007770496,
+      "impact_loss": 0.17699326466490106,
+      "impact_friction_shortfall": 0.06917325157363052,
+      "spring_min_length": 0.5570857950427222,
+      "min_stance_normal": -1.5987211554602254e-14,
+      "max_friction_margin": 5.240252676230739e-14,
+      "goal_crossings": 0
+    },
+    {
+      "hop": 4,
+      "foot_start": 28.5610530354869,
+      "foot_end": 34.99734352145949,
+      "alpha_reference": 0.388635031479368,
+      "flight_reference": -0.1442057213063328,
+      "touchdown_pitch_rad": -0.14699080071027304,
+      "touchdown_pitch_deg": -8.421952507947228,
+      "touchdown_pitch_rate": -0.061892580920420506,
+      "flight_duration": 0.6204330952729009,
+      "flight_rise": 0.597997830105293,
+      "touchdown_safe": true,
+      "touchdown_time": 6.58723616417793,
+      "takeoff_time": 5.966803068905029,
+      "impact_loss": 0.5528676380540176,
+      "impact_friction_shortfall": 0.12645309118434334,
+      "spring_min_length": 0.6520964828488615,
+      "min_stance_normal": 5.478094702147599,
+      "max_friction_margin": -1.8653246604861735,
       "goal_crossings": 0
     }
   ],
-  "peak_relative_wheel_speed_rad_s": 164.32727103440064,
-  "peak_abs_motor_mechanical_power_W": 1005.4301521354816,
+  "peak_relative_wheel_speed_rad_s": 170.3836519560033,
+  "peak_abs_motor_mechanical_power_W": 2465.625551236049,
   "candidates_at_each_replan": [
     {
       "at_hop": 1,
       "from_foot": 0.0,
-      "selected_horizon": 3,
+      "selected_horizon": 2,
       "candidates": [
         {
           "horizon": 1,
-          "score": 6217.0120027886305,
+          "score": 97978.01271015755,
           "refs": [
-            0.65
+            0.6413730394179441
           ],
-          "predicted_terminal_x": 2.1152077451476177,
+          "flight_refs": [
+            -0.5167744886955579
+          ],
+          "predicted_terminal_x": 3.6989045126124798,
           "feasible": true,
-          "evaluations": 28
+          "evaluations": 40,
+          "failure_reason": null
         },
         {
           "horizon": 2,
-          "score": 34.58261645708605,
+          "score": 33205.42866883927,
           "refs": [
-            0.65,
-            0.38750096762597225
+            0.6356922438417045,
+            0.5692201464016524
           ],
-          "predicted_terminal_x": 9.412209629836152,
+          "flight_refs": [
+            0.019613397006392363,
+            -0.5007018698643668
+          ],
+          "predicted_terminal_x": 16.778203950224075,
           "feasible": true,
-          "evaluations": 73
+          "evaluations": 40,
+          "failure_reason": null
         },
         {
           "horizon": 3,
-          "score": 0.048604299984985014,
+          "score": 36589.02163707666,
           "refs": [
-            -0.03622325850054686,
-            0.349778296130354,
-            0.3614333042897891
+            0.017463371913958914,
+            0.3013678656516199,
+            0.23465967008956257
           ],
-          "predicted_terminal_x": 9.995171905933288,
+          "flight_refs": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_terminal_x": 15.871754943557658,
           "feasible": true,
-          "evaluations": 46
+          "evaluations": 40,
+          "failure_reason": null
         },
         {
           "horizon": 4,
-          "score": 199.5997389818971,
+          "score": 194934.10037127,
           "refs": [
-            0.5932928783923097,
-            0.18200700089043248,
-            0.6395643733087043,
-            -8.326672684688674e-17
+            -0.15344418537486337,
+            0.21666666666666673,
+            -0.054166666666666585,
+            -0.325
           ],
-          "predicted_terminal_x": 11.412571297879184,
+          "flight_refs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_terminal_x": -9.151335141204886,
           "feasible": true,
-          "evaluations": 72
+          "evaluations": 40,
+          "failure_reason": null
         }
       ]
     },
     {
       "at_hop": 2,
-      "from_foot": -0.17594765616468663,
+      "from_foot": 3.159681666374932,
       "selected_horizon": 2,
       "candidates": [
         {
           "horizon": 1,
-          "score": 4799.265610229575,
+          "score": 32899.22080305974,
           "refs": [
-            0.6499181528144455
+            0.6412310327445774
           ],
-          "predicted_terminal_x": 3.072339140757689,
+          "flight_refs": [
+            -0.5167744886955579
+          ],
+          "predicted_terminal_x": 16.86245164662854,
           "feasible": true,
-          "evaluations": 28
+          "evaluations": 37,
+          "failure_reason": null
         },
         {
           "horizon": 2,
-          "score": 0.03354803988165894,
+          "score": 3898.1598538054827,
           "refs": [
-            0.349778296130354,
-            0.36144996986062916
+            0.6412310327445774,
+            0.45156359810726693
           ],
-          "predicted_terminal_x": 9.99522371486687,
+          "flight_refs": [
+            -0.4847405408726071,
+            -0.5007018698643668
+          ],
+          "predicted_terminal_x": 28.759616112037683,
           "feasible": true,
-          "evaluations": 29
+          "evaluations": 40,
+          "failure_reason": null
         },
         {
           "horizon": 3,
-          "score": 0.046184023706557546,
+          "score": 114310.6340392679,
           "refs": [
-            0.07159807668030754,
-            0.26727767637325167,
-            0.3993936205512424
+            0.6412310327445774,
+            0.4515635920816057,
+            0.6412310447959
           ],
-          "predicted_terminal_x": 10.000125711359958,
-          "feasible": true,
-          "evaluations": 70
+          "flight_refs": [
+            -0.3224537955853498,
+            0.0,
+            0.0
+          ],
+          "predicted_terminal_x": 23.13312774143549,
+          "feasible": false,
+          "evaluations": 40,
+          "failure_reason": "degenerate_flight_rise"
         },
         {
           "horizon": 4,
-          "score": 25.039559851032784,
+          "score": 137477.21925358722,
           "refs": [
-            0.20788491023854191,
-            0.19596902794338278,
-            0.6382663628267858,
-            -6.808789643208968e-17
+            0.6412310327445774,
+            0.45156359007305197,
+            -0.054166666666666585,
+            -0.325
           ],
-          "predicted_terminal_x": 10.499771082977494,
-          "feasible": true,
-          "evaluations": 73
+          "flight_refs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_terminal_x": 16.233371712917464,
+          "feasible": false,
+          "evaluations": 40,
+          "failure_reason": "degenerate_flight_time"
         }
       ]
     },
     {
       "at_hop": 3,
-      "from_foot": 2.651768264988694,
+      "from_foot": 16.819820435079407,
+      "selected_horizon": 2,
+      "candidates": [
+        {
+          "horizon": 1,
+          "score": 3784.366865045949,
+          "refs": [
+            0.5568246432237791
+          ],
+          "flight_refs": [
+            -0.5167744886955579
+          ],
+          "predicted_terminal_x": 28.85003036886327,
+          "feasible": true,
+          "evaluations": 40,
+          "failure_reason": null
+        },
+        {
+          "horizon": 2,
+          "score": 0.9867823883892984,
+          "refs": [
+            0.5733824383233842,
+            0.16221314743673998
+          ],
+          "flight_refs": [
+            -0.29644775202826107,
+            0.1442057213063327
+          ],
+          "predicted_terminal_x": 34.98100592654282,
+          "feasible": true,
+          "evaluations": 40,
+          "failure_reason": null
+        },
+        {
+          "horizon": 3,
+          "score": 106383.36521690377,
+          "refs": [
+            0.5733824383233842,
+            0.1622131534624012,
+            0.6412310447959
+          ],
+          "flight_refs": [
+            -0.1442057213063328,
+            0.0,
+            0.0
+          ],
+          "predicted_terminal_x": 28.379301232570867,
+          "feasible": false,
+          "evaluations": 40,
+          "failure_reason": "invalid_contact"
+        },
+        {
+          "horizon": 4,
+          "score": 107589.94268144135,
+          "refs": [
+            0.5842961083317529,
+            0.21666666666666673,
+            -0.054166666666666585,
+            -0.325
+          ],
+          "flight_refs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_terminal_x": 28.225088427557637,
+          "feasible": false,
+          "evaluations": 40,
+          "failure_reason": "invalid_contact"
+        }
+      ]
+    },
+    {
+      "at_hop": 4,
+      "from_foot": 28.5610530354869,
       "selected_horizon": 1,
       "candidates": [
         {
           "horizon": 1,
-          "score": 0.01566429087502512,
+          "score": 0.19317689858650922,
           "refs": [
-            0.36402724241664924
+            0.388635031479368
           ],
-          "predicted_terminal_x": 9.999975665165714,
+          "flight_refs": [
+            -0.1442057213063328
+          ],
+          "predicted_terminal_x": 34.997486168703475,
           "feasible": true,
-          "evaluations": 21
+          "evaluations": 35,
+          "failure_reason": null
         },
         {
           "horizon": 2,
-          "score": 42.58373591067878,
+          "score": 101000.0003040005,
           "refs": [
-            0.3495838700691355,
-            0.5775534829989064
+            0.24864690378851323,
+            0.16221314743673998
           ],
-          "predicted_terminal_x": 10.652314765982377,
-          "feasible": true,
-          "evaluations": 73
+          "flight_refs": [
+            -0.006871424718691175,
+            0.0
+          ],
+          "predicted_terminal_x": 35.001743560996964,
+          "feasible": false,
+          "evaluations": 40,
+          "failure_reason": "invalid_contact"
         },
         {
           "horizon": 3,
-          "score": 142.77720914985173,
+          "score": 102235.33560995969,
           "refs": [
-            0.3431116292502734,
-            0.48109655785058036,
-            -0.04984144153244418
+            0.641231034672789,
+            0.641231034672789,
+            0.641231034672789
           ],
-          "predicted_terminal_x": 11.194698494205802,
-          "feasible": true,
-          "evaluations": 73
+          "flight_refs": [
+            -0.14420572130633286,
+            0.15271630954950383,
+            0.15271630954950383
+          ],
+          "predicted_terminal_x": 34.681920331429986,
+          "feasible": false,
+          "evaluations": 40,
+          "failure_reason": "degenerate_flight_rise"
         },
         {
           "horizon": 4,
-          "score": 267.7941477561022,
+          "score": 103000.00177890743,
           "refs": [
-            0.39728588751847266,
-            0.4591376884689302,
-            -2.7755575615628914e-17,
-            -2.7755575615628914e-17
+            0.24808490319410545,
+            0.21666666666666673,
+            -0.054166666666666585,
+            -0.325
           ],
-          "predicted_terminal_x": 11.636252739793868,
-          "feasible": true,
-          "evaluations": 73
+          "flight_refs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_terminal_x": 34.99578229039772,
+          "feasible": false,
+          "evaluations": 40,
+          "failure_reason": "invalid_contact"
         }
       ]
     }
