@@ -1,0 +1,234 @@
+{
+  "status": "goal_tolerance_reached",
+  "target": 3.0,
+  "final_x": 3.0072536690544727,
+  "final_state": [
+    3.2094619023373276,
+    0.9775916173969915,
+    0.20971467294058185,
+    0.9713105221084907,
+    -244.30335273818642,
+    2.0127227197475492,
+    -6.8420902450333765,
+    3.3935791910597324,
+    -6.727679087839072,
+    -136.461219559361
+  ],
+  "hop_info": [
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.6640000000000013,
+      "time": 1.6640000000000013,
+      "stance_ref": 0.05563826927820567,
+      "flight_ref": 0.0,
+      "flight_duration": 1.5880000000000012,
+      "flight_rise": 3.0741192134441278,
+      "touchdown_pitch": 0.02343540389320319,
+      "touchdown_rate": 4.150199249358702e-06,
+      "foot_x": 0.15034459130808506,
+      "com_x": 0.1741056962603184,
+      "body_collision": false,
+      "max_wheel_speed": 27.429553909657137,
+      "max_mechanical_power": 25.83894307755335,
+      "max_electrical_power": 32.211591244252126,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 1.0806414676129208,
+      "motor_mechanical_work": 0.768874014362001,
+      "electrical_energy": 1.1334270718593082,
+      "spring_damper_loss": 2.9031096714489433,
+      "energy_initial": 42.007840200000004,
+      "energy_final": 41.18373887807458,
+      "n_steps": 416,
+      "ok": true,
+      "errors": [],
+      "hop": 1,
+      "from_x": 0.0,
+      "goal_crossings": 0,
+      "chosen_horizon": 2
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.5400000000000011,
+      "time": 3.2040000000000024,
+      "stance_ref": 0.24884202464831554,
+      "flight_ref": 0.05969117224407606,
+      "flight_duration": 1.396000000000001,
+      "flight_rise": 2.3710247089503045,
+      "touchdown_pitch": 0.19614035617634293,
+      "touchdown_rate": 0.00012145947205413061,
+      "foot_x": 3.0072536690544727,
+      "com_x": 3.2094619023373276,
+      "body_collision": false,
+      "max_wheel_speed": 153.82472819726982,
+      "max_mechanical_power": 294.62777433946127,
+      "max_electrical_power": 358.4927848145248,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.9974951344770702,
+      "motor_mechanical_work": 26.653130084630185,
+      "electrical_energy": 33.466418076529976,
+      "spring_damper_loss": 6.112988959250036,
+      "energy_initial": 41.18373887807458,
+      "energy_final": 63.24010602527081,
+      "n_steps": 385,
+      "ok": true,
+      "errors": [],
+      "hop": 2,
+      "from_x": 0.15034459130808506,
+      "goal_crossings": 1,
+      "chosen_horizon": 1
+    }
+  ],
+  "plan_history": [
+    {
+      "hop": 1,
+      "chosen": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 265.68048524451535,
+          "refs": [
+            [
+              0.5877728461363934,
+              -0.10300408664738053
+            ]
+          ],
+          "terminal_x": 1.3704210536530854,
+          "evaluations": 18,
+          "failure": null
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 0.9260184262020648,
+          "refs": [
+            [
+              0.05563826927820567,
+              0.0
+            ],
+            [
+              0.22602013813326566,
+              0.0
+            ]
+          ],
+          "terminal_x": 2.9178537855030076,
+          "evaluations": 18,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "hop": 2,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 0.31805237645552736,
+          "refs": [
+            [
+              0.24884202464831554,
+              0.05969117224407606
+            ]
+          ],
+          "terminal_x": 3.0072536690544727,
+          "evaluations": 18,
+          "failure": null
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 3.8719084291799932,
+          "refs": [
+            [
+              0.015730974863942912,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "terminal_x": 3.1906285966820245,
+          "evaluations": 18,
+          "failure": null
+        }
+      ]
+    }
+  ],
+  "crossings": 1,
+  "total_time": 3.2040000000000024,
+  "config": {
+    "robot": {
+      "body_mass": 1.0,
+      "foot_mass": 0.035,
+      "body_inertia": 0.015,
+      "wheel_inertia": 0.003,
+      "body_width": 0.18,
+      "body_height": 0.22,
+      "foot_radius": 0.012,
+      "leg_free_length": 1.0,
+      "leg_min_length": 0.18,
+      "spring_k": 450.0,
+      "spring_c": 1.0,
+      "gravity": 9.81,
+      "friction_mu": 0.85,
+      "supply_voltage": 48.0,
+      "armature_resistance": 0.16,
+      "torque_constant": 0.05,
+      "back_emf_constant": 0.05,
+      "gear_ratio": 5.0,
+      "gear_efficiency": 0.9,
+      "current_limit": 50.0,
+      "relative_wheel_speed_warning": 190.0
+    },
+    "controller": {
+      "stance_kp": 20.0,
+      "stance_kd": 0.65,
+      "flight_kp": 3.0,
+      "flight_kd": 0.7,
+      "max_stance_ref": 0.6457718232379019,
+      "max_flight_ref": 0.4363323129985824,
+      "wheel_rate_damping": 0.003
+    },
+    "sim_config": {
+      "dt": 0.004,
+      "max_stance_time": 1.5,
+      "max_flight_time": 3.5,
+      "min_flight_duration": 0.06,
+      "min_flight_rise": 0.025,
+      "max_touchdown_pitch": 0.5235987755982988,
+      "max_touchdown_rate": 2.0,
+      "contact_iterations": 16,
+      "contact_margin": 0.0015,
+      "contact_beta": 0.12,
+      "allow_body_contact": false,
+      "record_stride": 1
+    },
+    "goal": {
+      "target_x": 3.0,
+      "tolerance": 0.05,
+      "max_crossings": 2,
+      "safety_max_hops": 8,
+      "min_progress": 0.015,
+      "stall_hops": 2
+    },
+    "planner": {
+      "lookahead": 2,
+      "maxfev": 12,
+      "landing_pitch_weight": 6.0,
+      "landing_rate_weight": 0.5,
+      "slip_weight": 2.0,
+      "energy_weight": 0.0,
+      "hop_cost": 0.08,
+      "reference_cost": 0.03,
+      "invalid_cost": 20000.0,
+      "position_weight": 100.0,
+      "verbose": true
+    }
+  }
+}

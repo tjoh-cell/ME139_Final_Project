@@ -1,0 +1,3231 @@
+{
+  "status": "no_feasible_plan_after_recovery_search",
+  "target": 60.0,
+  "final_x": 60.203225568537775,
+  "final_state": [
+    60.43278234599065,
+    0.9849161585056615,
+    0.23303294398177835,
+    0.9940554655828999,
+    150.85570694522784,
+    0.1324281671633879,
+    -1.1271351446828055,
+    0.3869969950224911,
+    -1.0670514819485952,
+    191.76566445145463
+  ],
+  "hop_info": [
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 2.0720000000000014,
+      "time": 2.0720000000000014,
+      "stance_ref": 0.5972197721236047,
+      "flight_ref": -0.10300408664738053,
+      "flight_duration": 1.9960000000000016,
+      "flight_rise": 4.8654122585078,
+      "touchdown_pitch": 0.07909881275878217,
+      "touchdown_rate": -6.793125999982584e-07,
+      "postimpact_pitch": 0.08632144228898603,
+      "postimpact_rate": 1.8056573825509665,
+      "postimpact_vx": 0.9960399145218538,
+      "postimpact_vz": -9.786049287083355,
+      "postimpact_spring_speed": -10.141476138143846,
+      "postimpact_corner_clearance": 0.8745365087314091,
+      "foot_x": 2.0134549649752573,
+      "com_x": 2.0960118845664,
+      "body_collision": false,
+      "max_wheel_speed": 191.74655353193359,
+      "max_mechanical_power": 1696.7738546667595,
+      "max_electrical_power": 2285.304282963066,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 1.7485694209209441,
+      "motor_mechanical_work": 46.01329912132757,
+      "electrical_energy": 70.22988706334706,
+      "spring_damper_loss": 4.377305281005176,
+      "energy_initial": 61.2768402,
+      "energy_final": 108.29852942029497,
+      "n_steps": 518,
+      "ok": true,
+      "errors": [],
+      "hop": 1,
+      "from_x": 0.0,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 2,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.3360000000000012,
+      "time": 3.4080000000000026,
+      "stance_ref": 0.3789874590827657,
+      "flight_ref": -0.41198332321709935,
+      "flight_duration": 1.1960000000000008,
+      "flight_rise": 1.7983238174343699,
+      "touchdown_pitch": -0.36750337765669666,
+      "touchdown_rate": 0.00497272019015473,
+      "postimpact_pitch": -0.36025067405483824,
+      "postimpact_rate": 1.8131759004645995,
+      "postimpact_vx": 6.822569042475279,
+      "postimpact_vz": -5.787841350806367,
+      "postimpact_spring_speed": -7.359886064640739,
+      "postimpact_corner_clearance": 0.7950433574486673,
+      "foot_x": 11.127795696528436,
+      "com_x": 10.786217591668555,
+      "body_collision": false,
+      "max_wheel_speed": 194.3203096330067,
+      "max_mechanical_power": 776.3259820273248,
+      "max_electrical_power": 784.5406634039962,
+      "slip_duration": 0.004,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 1.4076628258644348,
+      "motor_mechanical_work": -49.84915996781988,
+      "electrical_energy": -47.60184566766622,
+      "spring_damper_loss": 8.458452926551795,
+      "energy_initial": 108.29852942029497,
+      "energy_final": 52.55933229449337,
+      "n_steps": 334,
+      "ok": true,
+      "errors": [],
+      "hop": 2,
+      "from_x": 2.0134549649752573,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.0479999999999499,
+      "time": 4.455999999999952,
+      "stance_ref": 0.3408797267616554,
+      "flight_ref": -0.4196094636433938,
+      "flight_duration": 0.9240000000000007,
+      "flight_rise": 1.0628271077153206,
+      "touchdown_pitch": -0.37360840495256237,
+      "touchdown_rate": 0.014782811551007054,
+      "postimpact_pitch": -0.3683603681227534,
+      "postimpact_rate": 1.312009207452241,
+      "postimpact_vx": 7.543670986689106,
+      "postimpact_vz": -4.489195443217378,
+      "postimpact_spring_speed": -5.352017101566107,
+      "postimpact_corner_clearance": 0.8061948663944075,
+      "foot_x": 18.959709528829695,
+      "com_x": 18.607954031758418,
+      "body_collision": false,
+      "max_wheel_speed": 191.39491598691524,
+      "max_mechanical_power": 1055.9092294367524,
+      "max_electrical_power": 1401.3844800440197,
+      "slip_duration": 0.004,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 1.1295900201765505,
+      "motor_mechanical_work": -2.4220965413179307,
+      "electrical_energy": 14.472050659992277,
+      "spring_damper_loss": 4.658149850842167,
+      "energy_initial": 52.55933229449337,
+      "energy_final": 52.00811935640133,
+      "n_steps": 262,
+      "ok": true,
+      "errors": [],
+      "hop": 3,
+      "from_x": 11.127795696528436,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.8319999999999084,
+      "time": 5.287999999999861,
+      "stance_ref": 0.08660151231909861,
+      "flight_ref": -0.4019349780191745,
+      "flight_duration": 0.7120000000000005,
+      "flight_rise": 0.6013617115883024,
+      "touchdown_pitch": -0.5201079719584402,
+      "touchdown_rate": -0.4347489037496947,
+      "postimpact_pitch": -0.5194081349895533,
+      "postimpact_rate": 0.17495924222171294,
+      "postimpact_vx": 7.3239871508362375,
+      "postimpact_vz": -3.5508537809094363,
+      "postimpact_spring_speed": -4.553530449258973,
+      "postimpact_corner_clearance": 0.7271540458624954,
+      "foot_x": 25.16796019532483,
+      "com_x": 24.681558692511654,
+      "body_collision": false,
+      "max_wheel_speed": 191.99999999999997,
+      "max_mechanical_power": 795.078487624921,
+      "max_electrical_power": 1280.1053491115415,
+      "slip_duration": 0.008,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.8748652708910925,
+      "motor_mechanical_work": 27.75183427075999,
+      "electrical_energy": 52.829721130118386,
+      "spring_damper_loss": 3.324171816702442,
+      "energy_initial": 52.00811935640133,
+      "energy_final": 82.29313736996455,
+      "n_steps": 208,
+      "ok": true,
+      "errors": [],
+      "hop": 4,
+      "from_x": 18.959709528829695,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.107999999999878,
+      "time": 6.395999999999739,
+      "stance_ref": 0.627955332720438,
+      "flight_ref": -0.42928311106797623,
+      "flight_duration": 0.9880000000000008,
+      "flight_rise": 1.1857631094747931,
+      "touchdown_pitch": -0.3350896260712802,
+      "touchdown_rate": 0.012665258353695199,
+      "postimpact_pitch": -0.3286751490809227,
+      "postimpact_rate": 1.6036192475893596,
+      "postimpact_vx": 6.970555116259318,
+      "postimpact_vz": -4.856589198136967,
+      "postimpact_spring_speed": -5.835998755500977,
+      "postimpact_corner_clearance": 0.8176829156324874,
+      "foot_x": 32.71241891092028,
+      "com_x": 32.39770439319076,
+      "body_collision": false,
+      "max_wheel_speed": 190.1618337734382,
+      "max_mechanical_power": 1838.336766610903,
+      "max_electrical_power": 1642.596407345448,
+      "slip_duration": 0.016,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 1.1670861127443573,
+      "motor_mechanical_work": -27.775602112675788,
+      "electrical_energy": 5.600326178038371,
+      "spring_damper_loss": 3.361626679008892,
+      "energy_initial": 82.29313736996455,
+      "energy_final": 59.92299591883227,
+      "n_steps": 277,
+      "ok": true,
+      "errors": [],
+      "hop": 5,
+      "from_x": 25.16796019532483,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.8479999999999066,
+      "time": 7.243999999999645,
+      "stance_ref": 0.09462955592532885,
+      "flight_ref": -0.4145165823157349,
+      "flight_duration": 0.7280000000000005,
+      "flight_rise": 0.6380309524547703,
+      "touchdown_pitch": -0.519593065737045,
+      "touchdown_rate": -0.056257884886453564,
+      "postimpact_pitch": -0.5173842545228332,
+      "postimpact_rate": 0.5522028035529556,
+      "postimpact_vx": 7.0677972540630325,
+      "postimpact_vz": -3.5955597063344005,
+      "postimpact_spring_speed": -4.570207050839866,
+      "postimpact_corner_clearance": 0.7353013793168562,
+      "foot_x": 38.826437269866396,
+      "com_x": 38.34177078960112,
+      "body_collision": false,
+      "max_wheel_speed": 160.8860979857805,
+      "max_mechanical_power": 778.9597643522621,
+      "max_electrical_power": 1033.974049645109,
+      "slip_duration": 0.008,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.843072335798766,
+      "motor_mechanical_work": -6.249236321820075,
+      "electrical_energy": 13.371840617962565,
+      "spring_damper_loss": 3.330371345899897,
+      "energy_initial": 59.92299591883227,
+      "energy_final": 56.23706690027306,
+      "n_steps": 212,
+      "ok": true,
+      "errors": [],
+      "hop": 6,
+      "from_x": 32.71241891092028,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.115999999999878,
+      "time": 8.359999999999523,
+      "stance_ref": 0.5455811804586421,
+      "flight_ref": -0.4363323129985824,
+      "flight_duration": 0.9920000000000008,
+      "flight_rise": 1.184795370835565,
+      "touchdown_pitch": -0.33324749551296495,
+      "touchdown_rate": 0.012159190367455407,
+      "postimpact_pitch": -0.3264747597577028,
+      "postimpact_rate": 1.6931839388155454,
+      "postimpact_vx": 6.509406770070421,
+      "postimpact_vz": -4.89709725072478,
+      "postimpact_spring_speed": -6.134416087254578,
+      "postimpact_corner_clearance": 0.8110685074832438,
+      "foot_x": 45.9338544312533,
+      "com_x": 45.621570982812635,
+      "body_collision": false,
+      "max_wheel_speed": 191.50305588527033,
+      "max_mechanical_power": 1213.3983394306638,
+      "max_electrical_power": 1597.3276078999797,
+      "slip_duration": 0.008,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 1.1288822405122474,
+      "motor_mechanical_work": -1.08999585488886,
+      "electrical_energy": 30.21843780911904,
+      "spring_damper_loss": 3.3708325436566247,
+      "energy_initial": 56.23706690027306,
+      "energy_final": 59.54159561125493,
+      "n_steps": 279,
+      "ok": true,
+      "errors": [],
+      "hop": 7,
+      "from_x": 38.826437269866396,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.9359999999998969,
+      "time": 9.29599999999942,
+      "stance_ref": 0.0740246425008072,
+      "flight_ref": -0.43044666391989733,
+      "flight_duration": 0.8120000000000006,
+      "flight_rise": 0.7796720881798256,
+      "touchdown_pitch": -0.5177054990412724,
+      "touchdown_rate": -0.0016251506591974695,
+      "postimpact_pitch": -0.5147475105779564,
+      "postimpact_rate": 0.7394971158289945,
+      "postimpact_vx": 6.476259860304887,
+      "postimpact_vz": -4.0421170357704925,
+      "postimpact_spring_speed": -5.551429753395218,
+      "postimpact_corner_clearance": 0.7258036383443015,
+      "foot_x": 52.12363203856073,
+      "com_x": 51.64311122003595,
+      "body_collision": false,
+      "max_wheel_speed": 157.5202036024366,
+      "max_mechanical_power": 781.148086692729,
+      "max_electrical_power": 1028.2465882362817,
+      "slip_duration": 0.008,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.9098008520097025,
+      "motor_mechanical_work": -13.624462339880937,
+      "electrical_energy": 3.110854884524444,
+      "spring_damper_loss": 3.4921096691349476,
+      "energy_initial": 59.54159561125493,
+      "energy_final": 48.066065729068576,
+      "n_steps": 234,
+      "ok": true,
+      "errors": [],
+      "hop": 8,
+      "from_x": 45.9338544312533,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.2359999999998639,
+      "time": 10.531999999999284,
+      "stance_ref": 0.572518465358653,
+      "flight_ref": -0.43044666391989733,
+      "flight_duration": 1.1080000000000008,
+      "flight_rise": 1.4781435434749703,
+      "touchdown_pitch": -0.31314165294746343,
+      "touchdown_rate": 0.007251080651721948,
+      "postimpact_pitch": -0.305528470680891,
+      "postimpact_rate": 1.903295566643102,
+      "postimpact_vx": 5.34688339849862,
+      "postimpact_vz": -5.469527412261134,
+      "postimpact_spring_speed": -6.5261650212365545,
+      "postimpact_corner_clearance": 0.824837392599605,
+      "foot_x": 58.6032695648938,
+      "com_x": 58.31088620921869,
+      "body_collision": false,
+      "max_wheel_speed": 191.59106939321688,
+      "max_mechanical_power": 1686.5613176725415,
+      "max_electrical_power": 2273.9570196361574,
+      "slip_duration": 0.012,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 1.0790994569577492,
+      "motor_mechanical_work": 8.383112823665817,
+      "electrical_energy": 39.07278774918029,
+      "spring_damper_loss": 3.872808367780477,
+      "energy_initial": 48.066065729068576,
+      "energy_final": 59.94188920736469,
+      "n_steps": 309,
+      "ok": true,
+      "errors": [],
+      "hop": 9,
+      "from_x": 52.12363203856073,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 0
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.143999999999874,
+      "time": 11.675999999999158,
+      "stance_ref": -0.05297868447838261,
+      "flight_ref": -0.4363323129985824,
+      "flight_duration": 1.0120000000000007,
+      "flight_rise": 1.2030502655903397,
+      "touchdown_pitch": -0.5205645628219996,
+      "touchdown_rate": 0.011975951774490344,
+      "postimpact_pitch": -0.5169850125830948,
+      "postimpact_rate": 0.8948875597261885,
+      "postimpact_vx": 4.794661961237025,
+      "postimpact_vz": -5.0503134244140755,
+      "postimpact_spring_speed": -6.7492237867003935,
+      "postimpact_corner_clearance": 0.7262004735311823,
+      "foot_x": 64.27085531556803,
+      "com_x": 63.790810704841434,
+      "body_collision": false,
+      "max_wheel_speed": 145.08441328691487,
+      "max_mechanical_power": 627.0330686947499,
+      "max_electrical_power": 682.0719631082515,
+      "slip_duration": 0.004,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.8771137536186657,
+      "motor_mechanical_work": -16.93613244186513,
+      "electrical_energy": -3.151103991819958,
+      "spring_damper_loss": 4.0449157330103445,
+      "energy_initial": 59.94188920736469,
+      "energy_final": 43.068401311838706,
+      "n_steps": 286,
+      "ok": true,
+      "errors": [],
+      "hop": 10,
+      "from_x": 58.6032695648938,
+      "passive_fallback": false,
+      "active_emergency": true,
+      "chosen_horizon": 0,
+      "emergency_plan": {
+        "ref": [
+          -0.05297868447838261,
+          -0.4363323129985824
+        ],
+        "score": 171.9376656765408,
+        "predicted_event": "touchdown",
+        "predicted_safe": true,
+        "evaluations": 18,
+        "predicted_pitch": -0.5205645628219996,
+        "predicted_postimpact_rate": 0.8948875597261885
+      },
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.3679999999998493,
+      "time": 13.043999999999007,
+      "stance_ref": -0.32422801222961406,
+      "flight_ref": -0.02746353916085499,
+      "flight_duration": 1.2280000000000009,
+      "flight_rise": 1.8461577985212134,
+      "touchdown_pitch": -0.14352518928344452,
+      "touchdown_rate": 1.5901513485083557e-05,
+      "postimpact_pitch": -0.14802419740478526,
+      "postimpact_rate": -1.1247520303351888,
+      "postimpact_vx": -0.18076212769942654,
+      "postimpact_vz": -6.005470348835139,
+      "postimpact_spring_speed": -6.508591727019193,
+      "postimpact_corner_clearance": 0.8584433740409083,
+      "foot_x": 63.97861425921254,
+      "com_x": 63.83521925530743,
+      "body_collision": false,
+      "max_wheel_speed": 116.20128943545407,
+      "max_mechanical_power": 262.45590765056795,
+      "max_electrical_power": 314.1744208035446,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.6530781962879786,
+      "motor_mechanical_work": 9.60588923054389,
+      "electrical_energy": 12.22427882590982,
+      "spring_damper_loss": 4.480768484134466,
+      "energy_initial": 43.068401311838706,
+      "energy_final": 48.06374001588673,
+      "n_steps": 342,
+      "ok": true,
+      "errors": [],
+      "hop": 11,
+      "from_x": 64.27085531556803,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 2,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.0879999999998802,
+      "time": 14.131999999998888,
+      "stance_ref": -0.13021941524797945,
+      "flight_ref": 0.3954420954826116,
+      "flight_duration": 0.9480000000000007,
+      "flight_rise": 1.077270097556678,
+      "touchdown_pitch": 0.4460607890299322,
+      "touchdown_rate": -0.012715038087117108,
+      "postimpact_pitch": 0.44481399089546086,
+      "postimpact_rate": -0.31169953361783354,
+      "postimpact_vx": -2.8143417812103486,
+      "postimpact_vz": -4.6821946166292205,
+      "postimpact_spring_speed": -5.873278691452176,
+      "postimpact_corner_clearance": 0.7587231359793678,
+      "foot_x": 60.555479316575415,
+      "com_x": 60.97484449908726,
+      "body_collision": false,
+      "max_wheel_speed": 117.1723408107614,
+      "max_mechanical_power": 276.3710640086647,
+      "max_electrical_power": 316.3199179252804,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.5390468305945504,
+      "motor_mechanical_work": -19.04630698414629,
+      "electrical_energy": -13.950326039896835,
+      "spring_damper_loss": 3.6848444887071707,
+      "energy_initial": 48.06374001588673,
+      "energy_final": 27.341641149703086,
+      "n_steps": 272,
+      "ok": true,
+      "errors": [],
+      "hop": 12,
+      "from_x": 63.97861425921254,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 1.0879999999998802,
+      "time": 15.219999999998768,
+      "stance_ref": 0.13384501149518502,
+      "flight_ref": -0.0173751134843269,
+      "flight_duration": 0.9480000000000007,
+      "flight_rise": 1.1203643107276813,
+      "touchdown_pitch": -0.18140041368459653,
+      "touchdown_rate": 0.007379753974573986,
+      "postimpact_pitch": -0.18144652971420458,
+      "postimpact_rate": -0.011529007402017335,
+      "postimpact_vx": 0.8752113986097966,
+      "postimpact_vz": -4.593615181929201,
+      "postimpact_spring_speed": -4.9148705240921275,
+      "postimpact_corner_clearance": 0.8618479672202253,
+      "foot_x": 61.851081333480835,
+      "com_x": 61.674461710931375,
+      "body_collision": false,
+      "max_wheel_speed": 191.9999923182318,
+      "max_mechanical_power": 736.4121570707537,
+      "max_electrical_power": 873.5972344404416,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.3955277528762551,
+      "motor_mechanical_work": 34.334534835281104,
+      "electrical_energy": 49.45239097853439,
+      "spring_damper_loss": 3.1808318051973212,
+      "energy_initial": 27.341641149703086,
+      "energy_final": 60.43516613859133,
+      "n_steps": 272,
+      "ok": true,
+      "errors": [],
+      "hop": 13,
+      "from_x": 60.555479316575415,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 4,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.9839999999999822,
+      "time": 16.20399999999875,
+      "stance_ref": -0.003145051684578737,
+      "flight_ref": 0.0,
+      "flight_duration": 0.8400000000000006,
+      "flight_rise": 0.8679230966953149,
+      "touchdown_pitch": -0.026537767644074353,
+      "touchdown_rate": -0.002969006831343137,
+      "postimpact_pitch": -0.02870095503089046,
+      "postimpact_rate": -0.5407968467040266,
+      "postimpact_vx": -0.4272726300971235,
+      "postimpact_vz": -4.093515222940939,
+      "postimpact_spring_speed": -4.243068221400792,
+      "postimpact_corner_clearance": 0.8924113853253757,
+      "foot_x": 61.36688568744203,
+      "com_x": 61.33872264644175,
+      "body_collision": false,
+      "max_wheel_speed": 162.72895342996213,
+      "max_mechanical_power": 502.07358859289684,
+      "max_electrical_power": 527.7738487509899,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.31080228742362337,
+      "motor_mechanical_work": -39.47528988789034,
+      "electrical_energy": -39.5623988996676,
+      "spring_damper_loss": 2.4397568927277975,
+      "energy_initial": 60.43516613859133,
+      "energy_final": 19.513587045260536,
+      "n_steps": 246,
+      "ok": true,
+      "errors": [],
+      "hop": 14,
+      "from_x": 61.851081333480835,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 3,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.8600000000002872,
+      "time": 17.063999999999037,
+      "stance_ref": -0.09856680554542709,
+      "flight_ref": 0.32306885150732767,
+      "flight_duration": 0.7160000000000005,
+      "flight_rise": 0.6116293582724598,
+      "touchdown_pitch": 0.3132100827396774,
+      "touchdown_rate": 0.01802935733683977,
+      "postimpact_pitch": 0.3131339250871908,
+      "postimpact_rate": -0.01903941312164988,
+      "postimpact_vx": -1.166057637939145,
+      "postimpact_vz": -3.5378712042709926,
+      "postimpact_spring_speed": -3.725031758723282,
+      "postimpact_corner_clearance": 0.8308958122215986,
+      "foot_x": 60.0985367696882,
+      "com_x": 60.40143231018647,
+      "body_collision": false,
+      "max_wheel_speed": 40.38021020096191,
+      "max_mechanical_power": 32.036210186632346,
+      "max_electrical_power": 38.60619056948539,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.2555540566714516,
+      "motor_mechanical_work": -1.0666455015832466,
+      "electrical_energy": -0.5707900380199392,
+      "spring_damper_loss": 1.8715171341320593,
+      "energy_initial": 19.513587045260536,
+      "energy_final": 16.654174514273777,
+      "n_steps": 215,
+      "ok": true,
+      "errors": [],
+      "hop": 15,
+      "from_x": 61.36688568744203,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.7600000000002538,
+      "time": 17.82399999999929,
+      "stance_ref": 0.18311394625323682,
+      "flight_ref": -0.23032413970382132,
+      "flight_duration": 0.6160000000000004,
+      "flight_rise": 0.45953779304005726,
+      "touchdown_pitch": -0.3710094629759009,
+      "touchdown_rate": -0.08463286736806047,
+      "postimpact_pitch": -0.37202276447742977,
+      "postimpact_rate": -0.25332537538222494,
+      "postimpact_vx": 0.9662067204245368,
+      "postimpact_vz": -3.0234843875235167,
+      "postimpact_spring_speed": -3.3125750749453267,
+      "postimpact_corner_clearance": 0.8023865928405991,
+      "foot_x": 61.32564272907568,
+      "com_x": 60.96750426113261,
+      "body_collision": false,
+      "max_wheel_speed": 180.13600301495103,
+      "max_mechanical_power": 440.40923986543237,
+      "max_electrical_power": 519.5788414580991,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.18451743144721888,
+      "motor_mechanical_work": 29.59232575176007,
+      "electrical_energy": 37.07111157695008,
+      "spring_damper_loss": 1.5259888636247596,
+      "energy_initial": 16.654174514273777,
+      "energy_final": 44.983263642006584,
+      "n_steps": 190,
+      "ok": true,
+      "errors": [],
+      "hop": 16,
+      "from_x": 60.0985367696882,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 2,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.6640000000002217,
+      "time": 18.487999999999513,
+      "stance_ref": -0.1291512941336252,
+      "flight_ref": 0.3090122599421416,
+      "flight_duration": 0.5200000000000004,
+      "flight_rise": 0.3345365569929345,
+      "touchdown_pitch": 0.384561325150934,
+      "touchdown_rate": 0.260102869939229,
+      "postimpact_pitch": 0.38485696931072555,
+      "postimpact_rate": 0.07391103994788678,
+      "postimpact_vx": -1.0471573398696576,
+      "postimpact_vz": -2.5316580059182154,
+      "postimpact_spring_speed": -2.9662841768960324,
+      "postimpact_corner_clearance": 0.793571021642193,
+      "foot_x": 60.05970372271643,
+      "com_x": 60.4301009483146,
+      "body_collision": false,
+      "max_wheel_speed": 143.29528058546384,
+      "max_mechanical_power": 658.0413124523208,
+      "max_electrical_power": 670.8685278190167,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.140019030394118,
+      "motor_mechanical_work": -19.847737090765573,
+      "electrical_energy": -9.316718814435307,
+      "spring_damper_loss": 1.1511247614633122,
+      "energy_initial": 44.983263642006584,
+      "energy_final": 26.58677338515012,
+      "n_steps": 166,
+      "ok": true,
+      "errors": [],
+      "hop": 17,
+      "from_x": 61.32564272907568,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.5880000000001964,
+      "time": 19.07599999999971,
+      "stance_ref": 0.11822697067345733,
+      "flight_ref": 0.0,
+      "flight_duration": 0.44400000000000034,
+      "flight_rise": 0.2767434543808711,
+      "touchdown_pitch": -0.1176670334618927,
+      "touchdown_rate": -0.27675206605485764,
+      "postimpact_pitch": -0.11615969268392039,
+      "postimpact_rate": 0.3768351944930808,
+      "postimpact_vx": 0.6196613370645001,
+      "postimpact_vz": -2.0169758315360484,
+      "postimpact_spring_speed": -2.076178204444145,
+      "postimpact_corner_clearance": 0.8840953653351891,
+      "foot_x": 60.78885034521174,
+      "com_x": 60.674095455762284,
+      "body_collision": false,
+      "max_wheel_speed": 169.05575276080194,
+      "max_mechanical_power": 761.9033549346875,
+      "max_electrical_power": 934.822058115036,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.09224642887375012,
+      "motor_mechanical_work": 14.73313218976299,
+      "electrical_energy": 29.115435498580684,
+      "spring_damper_loss": 0.894619546773194,
+      "energy_initial": 26.58677338515012,
+      "energy_final": 43.13456496389177,
+      "n_steps": 147,
+      "ok": true,
+      "errors": [],
+      "hop": 18,
+      "from_x": 60.05970372271643,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 4,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.5160000000001723,
+      "time": 19.59199999999988,
+      "stance_ref": -0.6288551360778828,
+      "flight_ref": -0.004391077601250528,
+      "flight_duration": 0.36400000000000027,
+      "flight_rise": 0.16586852808995056,
+      "touchdown_pitch": -0.08113511146473489,
+      "touchdown_rate": 0.06807352141018798,
+      "postimpact_pitch": -0.08221323523725023,
+      "postimpact_rate": -0.269530943128833,
+      "postimpact_vx": -0.12744597092114404,
+      "postimpact_vz": -1.7461844517418856,
+      "postimpact_spring_speed": -1.743538915439825,
+      "postimpact_corner_clearance": 0.889893918453415,
+      "foot_x": 60.731900244384626,
+      "com_x": 60.65049616383956,
+      "body_collision": false,
+      "max_wheel_speed": 192.11526912550838,
+      "max_mechanical_power": 1644.331586312636,
+      "max_electrical_power": 2165.3471921266214,
+      "slip_duration": 0.012,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.06108044450600403,
+      "motor_mechanical_work": 23.60268466689616,
+      "electrical_energy": 29.908464698575624,
+      "spring_damper_loss": 0.5577685838330939,
+      "energy_initial": 43.13456496389177,
+      "energy_final": 66.81732773678094,
+      "n_steps": 129,
+      "ok": true,
+      "errors": [],
+      "hop": 19,
+      "from_x": 60.78885034521174,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 2,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.4560000000001523,
+      "time": 20.048000000000034,
+      "stance_ref": -0.03598763028540919,
+      "flight_ref": 0.05437215382926008,
+      "flight_duration": 0.3000000000000002,
+      "flight_rise": 0.11222690031841753,
+      "touchdown_pitch": -0.09268515137687919,
+      "touchdown_rate": 0.09476001616297196,
+      "postimpact_pitch": -0.09501831435996326,
+      "postimpact_rate": -0.5832907457710177,
+      "postimpact_vx": -0.4488765461858641,
+      "postimpact_vz": -1.4378639795826251,
+      "postimpact_spring_speed": -1.4232522975554283,
+      "postimpact_corner_clearance": 0.8873491808040623,
+      "foot_x": 60.55961537077708,
+      "com_x": 60.46543179864227,
+      "body_collision": false,
+      "max_wheel_speed": 192.41983381504468,
+      "max_mechanical_power": 229.23396790128734,
+      "max_electrical_power": 247.4804980752365,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.049670510109049104,
+      "motor_mechanical_work": -28.971097707642766,
+      "electrical_energy": -31.527709598284943,
+      "spring_damper_loss": 0.4102339129752908,
+      "energy_initial": 66.81732773678094,
+      "energy_final": 37.62243663687455,
+      "n_steps": 114,
+      "ok": true,
+      "errors": [],
+      "hop": 20,
+      "from_x": 60.731900244384626,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 2,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.44000000000014694,
+      "time": 20.48800000000018,
+      "stance_ref": 0.15265840707412484,
+      "flight_ref": 0.26030494154103734,
+      "flight_duration": 0.2760000000000002,
+      "flight_rise": 0.07285128627058368,
+      "touchdown_pitch": 0.30454334645842657,
+      "touchdown_rate": 0.917001769297099,
+      "postimpact_pitch": 0.3062862455394495,
+      "postimpact_rate": 0.43572477025573153,
+      "postimpact_vx": -0.04326963241113651,
+      "postimpact_vz": -1.5031372583687916,
+      "postimpact_spring_speed": -1.5100546599000457,
+      "postimpact_corner_clearance": 0.8294330766151258,
+      "foot_x": 60.118920998807695,
+      "com_x": 60.41813781165606,
+      "body_collision": false,
+      "max_wheel_speed": 187.0835438973372,
+      "max_mechanical_power": 955.7549870556094,
+      "max_electrical_power": 1180.984355950602,
+      "slip_duration": 0.0,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.04697968863116131,
+      "motor_mechanical_work": 12.20883674982206,
+      "electrical_energy": 30.58405968735663,
+      "spring_damper_loss": 0.2894047784942863,
+      "energy_initial": 37.62243663687455,
+      "energy_final": 53.211872127752585,
+      "n_steps": 110,
+      "ok": true,
+      "errors": [],
+      "hop": 21,
+      "from_x": 60.55961537077708,
+      "passive_fallback": false,
+      "active_emergency": false,
+      "chosen_horizon": 1,
+      "goal_crossings": 1
+    },
+    {
+      "event": "touchdown",
+      "phase": "flight",
+      "total_duration": 0.4040000000001349,
+      "time": 20.892000000000316,
+      "stance_ref": -0.6457718232379019,
+      "flight_ref": -0.4363323129985824,
+      "flight_duration": 0.24000000000000019,
+      "flight_rise": 0.07380198046251407,
+      "touchdown_pitch": 0.2314849560016884,
+      "touchdown_rate": -0.2343355485453323,
+      "postimpact_pitch": 0.23303294398177835,
+      "postimpact_rate": 0.3869969950224911,
+      "postimpact_vx": 0.1324281671633879,
+      "postimpact_vz": -1.1271351446828055,
+      "postimpact_spring_speed": -1.0670514819485952,
+      "postimpact_corner_clearance": 0.8571057471348,
+      "foot_x": 60.203225568537775,
+      "com_x": 60.43278234599065,
+      "body_collision": false,
+      "max_wheel_speed": 191.99999999999997,
+      "max_mechanical_power": 1901.4424533944846,
+      "max_electrical_power": 2267.9689916382727,
+      "slip_duration": 0.008,
+      "max_position_correction": 0.0,
+      "touchdown_impulse_loss": 0.03328223747367787,
+      "motor_mechanical_work": 4.636920406792655,
+      "electrical_energy": 42.339074565560864,
+      "spring_damper_loss": 0.31406591353239477,
+      "energy_initial": 53.211872127752585,
+      "energy_final": 65.4822800198415,
+      "n_steps": 101,
+      "ok": true,
+      "errors": [],
+      "hop": 22,
+      "from_x": 60.118920998807695,
+      "passive_fallback": false,
+      "active_emergency": true,
+      "chosen_horizon": 0,
+      "emergency_plan": {
+        "ref": [
+          -0.6457718232379019,
+          -0.4363323129985824
+        ],
+        "score": 13.368272489712666,
+        "predicted_event": "touchdown",
+        "predicted_safe": true,
+        "evaluations": 18,
+        "predicted_pitch": 0.2314849560016884,
+        "predicted_postimpact_rate": 0.3869969950224911
+      },
+      "goal_crossings": 1
+    }
+  ],
+  "plan_history": [
+    {
+      "hop": 1,
+      "chosen": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 352707.5318943507,
+          "refs": [
+            [
+              0.6088596526464641,
+              -0.4196094636433938
+            ]
+          ],
+          "terminal_x": 2.320131669237029,
+          "evaluations": 26,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 2
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 239204.69707710276,
+          "refs": [
+            [
+              0.5972197721236047,
+              -0.10300408664738053
+            ],
+            [
+              0.24729350828293875,
+              -0.4196094636433938
+            ]
+          ],
+          "terminal_x": 11.094540554266278,
+          "evaluations": 39,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 2
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 200726.76644284787,
+          "refs": [
+            [
+              0.33044782575763887,
+              -0.0545064626001277
+            ],
+            [
+              0.0593047469387204,
+              -0.10074552503201967
+            ],
+            [
+              0.3795645033853353,
+              -2.7755575615628914e-17
+            ]
+          ],
+          "terminal_x": 17.497029258538607,
+          "evaluations": 88,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 2
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 264642.9219341329,
+          "refs": [
+            [
+              0.08047078766730487,
+              0.0
+            ],
+            [
+              -0.18531054770747407,
+              0.0
+            ],
+            [
+              0.2963965693797596,
+              0.0
+            ],
+            [
+              0.4565352153048495,
+              0.0
+            ]
+          ],
+          "terminal_x": 10.545566628008284,
+          "evaluations": 67,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 2
+        }
+      ]
+    },
+    {
+      "hop": 2,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 238868.8228961682,
+          "refs": [
+            [
+              0.3789874590827657,
+              -0.41198332321709935
+            ]
+          ],
+          "terminal_x": 11.127795696528436,
+          "evaluations": 26,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 276986.76133778517,
+          "refs": [
+            [
+              0.5166174585903216,
+              0.0
+            ],
+            [
+              -0.1291543646475804,
+              0.0
+            ]
+          ],
+          "terminal_x": 10.659972343598154,
+          "evaluations": 34,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 279557.55350632046,
+          "refs": [
+            [
+              -0.0671374516962088,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ]
+          ],
+          "terminal_x": 2.0134549649752573,
+          "evaluations": 45,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 281057.6335063204,
+          "refs": [
+            [
+              -0.0671374516962088,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ]
+          ],
+          "terminal_x": 2.0134549649752573,
+          "evaluations": 46,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 3,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 168441.23975089687,
+          "refs": [
+            [
+              0.3408797267616554,
+              -0.4196094636433938
+            ]
+          ],
+          "terminal_x": 18.959709528829695,
+          "evaluations": 25,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 2
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 182979.3999894071,
+          "refs": [
+            [
+              0.5166174585903216,
+              0.0
+            ],
+            [
+              -0.1291543646475804,
+              0.0
+            ]
+          ],
+          "terminal_x": 18.431532619904512,
+          "evaluations": 35,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 147942.10444850678,
+          "refs": [
+            [
+              0.06904961870935084,
+              -0.2531185979492201
+            ],
+            [
+              0.2583087292951606,
+              -8.326672684688674e-17
+            ],
+            [
+              0.2583087292951606,
+              -8.326672684688674e-17
+            ]
+          ],
+          "terminal_x": 25.23134058768566,
+          "evaluations": 85,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 149442.18645020877,
+          "refs": [
+            [
+              0.06904961870935084,
+              -0.2531185979492201
+            ],
+            [
+              0.2583087292951606,
+              -8.326672684688674e-17
+            ],
+            [
+              0.2583087292951606,
+              -8.326672684688674e-17
+            ],
+            [
+              0.2583087292951606,
+              -8.326672684688674e-17
+            ]
+          ],
+          "terminal_x": 25.23134058768566,
+          "evaluations": 84,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 4,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 121330.91213496399,
+          "refs": [
+            [
+              0.08660151231909861,
+              -0.4019349780191745
+            ]
+          ],
+          "terminal_x": 25.16796019532483,
+          "evaluations": 64,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 2
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 133366.11742685636,
+          "refs": [
+            [
+              -0.10796289085622746,
+              0.10300408664738048
+            ],
+            [
+              -1.1102230246251565e-16,
+              -8.326672684688674e-17
+            ]
+          ],
+          "terminal_x": 18.959709528829695,
+          "evaluations": 36,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 134866.19742685635,
+          "refs": [
+            [
+              -0.10796289085622746,
+              0.10300408664738048
+            ],
+            [
+              -1.1102230246251565e-16,
+              -8.326672684688674e-17
+            ],
+            [
+              -1.1102230246251565e-16,
+              -8.326672684688674e-17
+            ]
+          ],
+          "terminal_x": 18.959709528829695,
+          "evaluations": 48,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 136366.27742685634,
+          "refs": [
+            [
+              -0.10796289085622746,
+              0.10300408664738048
+            ],
+            [
+              -1.1102230246251565e-16,
+              -8.326672684688674e-17
+            ],
+            [
+              -1.1102230246251565e-16,
+              -8.326672684688674e-17
+            ],
+            [
+              -1.1102230246251565e-16,
+              -8.326672684688674e-17
+            ]
+          ],
+          "terminal_x": 18.959709528829695,
+          "evaluations": 60,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 5,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 74476.00499852918,
+          "refs": [
+            [
+              0.627955332720438,
+              -0.42928311106797623
+            ]
+          ],
+          "terminal_x": 32.71241891092028,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 96424.72067922149,
+          "refs": [
+            [
+              0.012105679658805428,
+              -0.10300408664738059
+            ],
+            [
+              -8.326672684688674e-17,
+              0.0
+            ]
+          ],
+          "terminal_x": 25.16796019532483,
+          "evaluations": 37,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 92069.81141359851,
+          "refs": [
+            [
+              0.5166174585903216,
+              0.0
+            ],
+            [
+              0.19373154697137063,
+              0.0
+            ],
+            [
+              -0.1291543646475804,
+              0.0
+            ]
+          ],
+          "terminal_x": 32.15088860049049,
+          "evaluations": 46,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 93344.57992004209,
+          "refs": [
+            [
+              0.5166174585903216,
+              0.0
+            ],
+            [
+              0.3013601841776876,
+              0.0
+            ],
+            [
+              0.08610290976505364,
+              0.0
+            ],
+            [
+              -0.1291543646475804,
+              0.0
+            ]
+          ],
+          "terminal_x": 32.15088860049049,
+          "evaluations": 48,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 6,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 44836.686688650545,
+          "refs": [
+            [
+              0.09462955592532885,
+              -0.4145165823157349
+            ]
+          ],
+          "terminal_x": 38.826437269866396,
+          "evaluations": 45,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 61646.238955550994,
+          "refs": [
+            [
+              0.45733814471436957,
+              -0.10300408664738059
+            ],
+            [
+              -0.08338262173564875,
+              0.0
+            ]
+          ],
+          "terminal_x": 37.88423690441843,
+          "evaluations": 35,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 63146.31895555099,
+          "refs": [
+            [
+              0.45733814471436957,
+              -0.10300408664738059
+            ],
+            [
+              -0.0833826217356487,
+              0.0
+            ],
+            [
+              -5.551115123125783e-17,
+              0.0
+            ]
+          ],
+          "terminal_x": 37.88423690441843,
+          "evaluations": 46,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 64646.39895555099,
+          "refs": [
+            [
+              0.45733814471436957,
+              -0.10300408664738059
+            ],
+            [
+              -0.08338262173564875,
+              0.0
+            ],
+            [
+              -5.551115123125783e-17,
+              0.0
+            ],
+            [
+              -5.551115123125783e-17,
+              0.0
+            ]
+          ],
+          "terminal_x": 37.88423690441843,
+          "evaluations": 47,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 7,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 19802.125043972537,
+          "refs": [
+            [
+              0.5455811804586421,
+              -0.4363323129985824
+            ]
+          ],
+          "terminal_x": 45.9338544312533,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 42404.69488397984,
+          "refs": [
+            [
+              -0.10796289085622748,
+              0.23032413970382126
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ]
+          ],
+          "terminal_x": 38.826437269866396,
+          "evaluations": 46,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 39590.75942736733,
+          "refs": [
+            [
+              0.5166174585903216,
+              0.0
+            ],
+            [
+              0.19373154697137063,
+              0.0
+            ],
+            [
+              -0.1291543646475804,
+              0.0
+            ]
+          ],
+          "terminal_x": 45.43914107540685,
+          "evaluations": 46,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 45404.854883979846,
+          "refs": [
+            [
+              -0.10796289085622748,
+              0.23032413970382126
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ]
+          ],
+          "terminal_x": 38.826437269866396,
+          "evaluations": 47,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 8,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 6221.915311852728,
+          "refs": [
+            [
+              0.0740246425008072,
+              -0.43044666391989733
+            ]
+          ],
+          "terminal_x": 52.12363203856073,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 25055.955559409966,
+          "refs": [
+            [
+              0.22602013813326566,
+              0.0
+            ],
+            [
+              0.22602013813326566,
+              0.0
+            ]
+          ],
+          "terminal_x": 51.47142043289181,
+          "evaluations": 37,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 26556.03709196305,
+          "refs": [
+            [
+              0.22602013813326566,
+              0.0
+            ],
+            [
+              0.22602013813326566,
+              0.0
+            ],
+            [
+              0.22602013813326566,
+              0.0
+            ]
+          ],
+          "terminal_x": 51.47142043289181,
+          "evaluations": 46,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 28056.118624516137,
+          "refs": [
+            [
+              0.22602013813326566,
+              0.0
+            ],
+            [
+              0.22602013813326566,
+              0.0
+            ],
+            [
+              0.22602013813326566,
+              0.0
+            ],
+            [
+              0.22602013813326566,
+              0.0
+            ]
+          ],
+          "terminal_x": 51.47142043289181,
+          "evaluations": 47,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 9,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 361.5211597335572,
+          "refs": [
+            [
+              0.572518465358653,
+              -0.43044666391989733
+            ]
+          ],
+          "terminal_x": 58.6032695648938,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 22602.217469189403,
+          "refs": [
+            [
+              -0.2822936108585689,
+              -0.2891418354317343
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ]
+          ],
+          "terminal_x": 52.12363203856073,
+          "evaluations": 47,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 21990.927874434277,
+          "refs": [
+            [
+              0.5166174585903216,
+              0.0
+            ],
+            [
+              0.19373154697137063,
+              0.0
+            ],
+            [
+              -0.1291543646475804,
+              0.0
+            ]
+          ],
+          "terminal_x": 58.151417045062175,
+          "evaluations": 46,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 25602.377469189403,
+          "refs": [
+            [
+              -0.2822936108585692,
+              -0.2891418354317343
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ]
+          ],
+          "terminal_x": 52.12363203856073,
+          "evaluations": 48,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 10,
+      "chosen": null,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 21219.922709252336,
+          "refs": [
+            [
+              -0.19692920562001912,
+              0.26038032712402115
+            ]
+          ],
+          "terminal_x": 63.17694488197966,
+          "evaluations": 42,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 2
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 22592.788611012886,
+          "refs": [
+            [
+              0.327546381667418,
+              0.1308996938995747
+            ],
+            [
+              0.12134784679983912,
+              0.1308996938995747
+            ]
+          ],
+          "terminal_x": 64.04083359299608,
+          "evaluations": 38,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 24092.86912505478,
+          "refs": [
+            [
+              0.327546381667418,
+              0.1308996938995747
+            ],
+            [
+              0.12134784679983945,
+              0.1308996938995747
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.1308996938995747
+            ]
+          ],
+          "terminal_x": 64.04083359299608,
+          "evaluations": 50,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 25592.949639096678,
+          "refs": [
+            [
+              0.327546381667418,
+              0.1308996938995747
+            ],
+            [
+              0.12134784679983213,
+              0.1308996938995747
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.1308996938995747
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.1308996938995747
+            ]
+          ],
+          "terminal_x": 64.04083359299608,
+          "evaluations": 62,
+          "failure": "body_collision",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 11,
+      "chosen": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 20779.29315831436,
+          "refs": [
+            [
+              -0.44317937788200723,
+              0.1950255429139651
+            ]
+          ],
+          "terminal_x": 62.72689375398645,
+          "evaluations": 35,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 77.26459993794906,
+          "refs": [
+            [
+              -0.32422801222961406,
+              -0.02746353916085499
+            ],
+            [
+              -0.13603102969246839,
+              0.27485564496644543
+            ]
+          ],
+          "terminal_x": 60.67913746151006,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 20177.795161340477,
+          "refs": [
+            [
+              -0.22602013813326566,
+              0.0
+            ],
+            [
+              -0.22602013813326566,
+              0.0
+            ],
+            [
+              -0.22602013813326566,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.462867911050544,
+          "evaluations": 48,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": true,
+          "score": 2531.6532125017516,
+          "refs": [
+            [
+              0.06883677556018003,
+              -0.35764419276026205
+            ],
+            [
+              -0.2261880080742774,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ],
+            [
+              -1.1102230246251565e-16,
+              0.0
+            ]
+          ],
+          "terminal_x": 65.01552979679876,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 12,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 55.43017013392679,
+          "refs": [
+            [
+              -0.13021941524797945,
+              0.3954420954826116
+            ]
+          ],
+          "terminal_x": 60.555479316575415,
+          "evaluations": 47,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 20226.77722929492,
+          "refs": [
+            [
+              -0.10576218836019116,
+              0.23032413970382126
+            ],
+            [
+              0.40461452788484725,
+              0.0
+            ]
+          ],
+          "terminal_x": 61.37045629196371,
+          "evaluations": 47,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 21959.010523397646,
+          "refs": [
+            [
+              -0.22602013813326566,
+              0.0
+            ],
+            [
+              -0.22602013813326566,
+              0.0
+            ],
+            [
+              -0.22602013813326566,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.8035457450387,
+          "evaluations": 44,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 23459.092055950732,
+          "refs": [
+            [
+              -0.22602013813326566,
+              0.0
+            ],
+            [
+              -0.22602013813326566,
+              0.0
+            ],
+            [
+              -0.22602013813326566,
+              0.0
+            ],
+            [
+              -0.22602013813326566,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.8035457450387,
+          "evaluations": 46,
+          "failure": "unsafe_touchdown_pitch",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 13,
+      "chosen": 4,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 20148.813964876543,
+          "refs": [
+            [
+              -0.18010086429151856,
+              0.42946780105905724
+            ]
+          ],
+          "terminal_x": 61.143714299015414,
+          "evaluations": 48,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 26.473406229396662,
+          "refs": [
+            [
+              -0.10796289085622748,
+              -0.01457175245276658
+            ],
+            [
+              -0.1881217636089977,
+              0.14438248036919568
+            ]
+          ],
+          "terminal_x": 60.01524995414554,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": true,
+          "score": 8.326654151801568,
+          "refs": [
+            [
+              0.019228563066052487,
+              -5.43590148030515e-06
+            ],
+            [
+              0.01118553844148394,
+              -0.014605837535458813
+            ],
+            [
+              -0.008017031577022351,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.07284366813957,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": true,
+          "score": 7.456531659192373,
+          "refs": [
+            [
+              0.13384501149518502,
+              -0.0173751134843269
+            ],
+            [
+              -0.0011194983076817655,
+              0.0
+            ],
+            [
+              -0.015087156177585334,
+              0.0
+            ],
+            [
+              0.016605755827531724,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.01420356567588,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 14,
+      "chosen": 3,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 14.866580507616534,
+          "refs": [
+            [
+              -0.6390241074436349,
+              0.4363323129985824
+            ]
+          ],
+          "terminal_x": 60.36754718097174,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 7.138924939360748,
+          "refs": [
+            [
+              -0.03598763028540923,
+              -0.008243419565588793
+            ],
+            [
+              -0.0064523332520852565,
+              0.1030040866473805
+            ]
+          ],
+          "terminal_x": 60.05357384960345,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": true,
+          "score": 4.565106200857211,
+          "refs": [
+            [
+              -0.003145051684578737,
+              0.0
+            ],
+            [
+              -0.0011334169028095198,
+              0.0
+            ],
+            [
+              -0.007675871168282552,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.06258797675335,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": true,
+          "score": 4.934214657242709,
+          "refs": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "terminal_x": 59.94504040813134,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 15,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 2.203616296456147,
+          "refs": [
+            [
+              -0.09856680554542709,
+              0.32306885150732767
+            ]
+          ],
+          "terminal_x": 60.0985367696882,
+          "evaluations": 47,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 2.5402802197170717,
+          "refs": [
+            [
+              -0.0010499522055874844,
+              -0.007223251743110132
+            ],
+            [
+              -0.007675871168282531,
+              0.020761304444508886
+            ]
+          ],
+          "terminal_x": 60.00537710930318,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": true,
+          "score": 4.345877116469941,
+          "refs": [
+            [
+              0.29355604226274684,
+              0.0
+            ],
+            [
+              -0.22583560275146108,
+              0.0
+            ],
+            [
+              0.01886143389931818,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.11002114192091,
+          "evaluations": 47,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": true,
+          "score": 2.9119994846455572,
+          "refs": [
+            [
+              0.3237042137181219,
+              0.0
+            ],
+            [
+              -0.21108797214690223,
+              0.0
+            ],
+            [
+              -0.008268916621355493,
+              0.0
+            ],
+            [
+              0.022185270373245344,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.02395205321344,
+          "evaluations": 47,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 16,
+      "chosen": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 20043.804827538792,
+          "refs": [
+            [
+              -0.2884121727405018,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.60759404547014,
+          "evaluations": 21,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 14.852705265137056,
+          "refs": [
+            [
+              0.18311394625323682,
+              -0.23032413970382132
+            ],
+            [
+              -0.1524460482381233,
+              0.1030040866473805
+            ]
+          ],
+          "terminal_x": 60.26855109336408,
+          "evaluations": 47,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": true,
+          "score": 17.121063961876725,
+          "refs": [
+            [
+              0.15244604823812313,
+              -0.025755444963582175
+            ],
+            [
+              -0.5774454099708322,
+              -0.10300408664738059
+            ],
+            [
+              -0.09380412602555072,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.040437442392076,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 22174.24912796335,
+          "refs": [
+            [
+              0.2583087292951608,
+              0.0
+            ],
+            [
+              0.2583087292951608,
+              0.0
+            ],
+            [
+              0.2583087292951608,
+              0.0
+            ],
+            [
+              0.2583087292951608,
+              0.0
+            ]
+          ],
+          "terminal_x": 62.074626510969544,
+          "evaluations": 46,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 17,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 1.7896336521091845,
+          "refs": [
+            [
+              -0.1291512941336252,
+              0.3090122599421416
+            ]
+          ],
+          "terminal_x": 60.05970372271643,
+          "evaluations": 47,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 3.3959113648855763,
+          "refs": [
+            [
+              -0.024094911854933898,
+              -0.07184462882295517
+            ],
+            [
+              -0.11319504979031485,
+              0.017270696283969794
+            ]
+          ],
+          "terminal_x": 60.010415655293464,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": true,
+          "score": 2.215498494164593,
+          "refs": [
+            [
+              -0.07162332449602642,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.005198393240775,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": true,
+          "score": 2.4363631475040592,
+          "refs": [
+            [
+              -0.06222400257268601,
+              0.0
+            ],
+            [
+              0.4362314336546842,
+              0.0
+            ],
+            [
+              -0.16577938383259694,
+              0.0
+            ],
+            [
+              0.02265429641829291,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.02604350050153,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 18,
+      "chosen": 4,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 20013.162133816546,
+          "refs": [
+            [
+              -0.1930987086060675,
+              0.42485187097630306
+            ]
+          ],
+          "terminal_x": 60.284916336362244,
+          "evaluations": 48,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 20093.00770532875,
+          "refs": [
+            [
+              -0.06347973347433167,
+              0.0
+            ],
+            [
+              0.2583087292951608,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.74009382572617,
+          "evaluations": 47,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 20007.35036238612,
+          "refs": [
+            [
+              0.09705531944993423,
+              -0.037649300103057656
+            ],
+            [
+              -0.34087972676165557,
+              0.055118607081978646
+            ],
+            [
+              -0.1182616439411382,
+              0.1030040866473805
+            ]
+          ],
+          "terminal_x": 60.14459200215105,
+          "evaluations": 48,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": true,
+          "score": 11.374913100026935,
+          "refs": [
+            [
+              0.11822697067345733,
+              0.0
+            ],
+            [
+              -0.5013111586331314,
+              0.0
+            ],
+            [
+              -0.052978684478382665,
+              0.0
+            ],
+            [
+              0.09306697717654222,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.234005043458396,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 19,
+      "chosen": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 23.371876132886698,
+          "refs": [
+            [
+              -0.6264629932687904,
+              0.43044666391989733
+            ]
+          ],
+          "terminal_x": 60.46988729183344,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 8.585293408248566,
+          "refs": [
+            [
+              -0.6288551360778828,
+              -0.004391077601250528
+            ],
+            [
+              -0.046145192656980985,
+              0.4363323129985824
+            ]
+          ],
+          "terminal_x": 60.269848866793474,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": true,
+          "score": 8.61170150384113,
+          "refs": [
+            [
+              -0.6208005320034522,
+              -4.163336342344337e-17
+            ],
+            [
+              -0.03598763028540919,
+              0.08726646259971649
+            ],
+            [
+              0.13911270545989157,
+              0.08726646259971649
+            ]
+          ],
+          "terminal_x": 60.24572009196911,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 20007.054282658293,
+          "refs": [
+            [
+              -0.26358554367298204,
+              0.0
+            ],
+            [
+              -0.02081860640456667,
+              0.0
+            ],
+            [
+              0.0002550735832587969,
+              0.0
+            ],
+            [
+              0.02217566038628134,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.18908893625046,
+          "evaluations": 47,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 20,
+      "chosen": 2,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 7.982055006313526,
+          "refs": [
+            [
+              -0.06713745393165255,
+              0.43059566026954077
+            ]
+          ],
+          "terminal_x": 60.27097590938364,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": true,
+          "score": 5.656416050781202,
+          "refs": [
+            [
+              -0.03598763028540919,
+              0.05437215382926008
+            ],
+            [
+              0.1524460482381232,
+              0.27923627555128827
+            ]
+          ],
+          "terminal_x": 60.10293055410977,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 20004.66281145637,
+          "refs": [
+            [
+              -0.017753860382462044,
+              -0.010140060282749419
+            ],
+            [
+              0.02265429641829291,
+              0.0
+            ],
+            [
+              -4.673378781586135e-05,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.14385890340313,
+          "evaluations": 48,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 20004.602976286118,
+          "refs": [
+            [
+              0.020014325713821543,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.154434540659516,
+          "evaluations": 48,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 21,
+      "chosen": 1,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": true,
+          "score": 4.331303590284705,
+          "refs": [
+            [
+              0.15265840707412484,
+              0.26030494154103734
+            ]
+          ],
+          "terminal_x": 60.118920998807695,
+          "evaluations": 48,
+          "failure": null,
+          "terminal_recovery_viable": true,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 20002.564833821874,
+          "refs": [
+            [
+              0.012078045716556768,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.1090066481013,
+          "evaluations": 41,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 20004.123869162173,
+          "refs": [
+            [
+              0.2638714519793953,
+              -4.163336342344337e-17
+            ],
+            [
+              -0.18401012115860987,
+              0.03764930010305759
+            ],
+            [
+              -0.12084631177826943,
+              0.1030040866473805
+            ]
+          ],
+          "terminal_x": 60.16165784563493,
+          "evaluations": 47,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 20005.883731901533,
+          "refs": [
+            [
+              0.2638714519793953,
+              0.0
+            ],
+            [
+              -0.1524460482381233,
+              0.0
+            ],
+            [
+              -0.026542129628003452,
+              0.0
+            ],
+            [
+              0.5431128103519168,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.224969870509184,
+          "evaluations": 47,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 1
+        }
+      ]
+    },
+    {
+      "hop": 22,
+      "chosen": null,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 20005.450576467716,
+          "refs": [
+            [
+              -0.27603663582336324,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 21,
+          "failure": "no_safe_complete_next_hop_found",
+          "terminal_recovery_viable": false,
+          "candidates_full_checked": 2
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 20023.98187373428,
+          "refs": [
+            [
+              -0.2826576898813282,
+              -4.163336342344337e-17
+            ],
+            [
+              0.3578707809546289,
+              0.23032413970382126
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 37,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 21523.749274151192,
+          "refs": [
+            [
+              -0.2826576898813283,
+              -4.163336342344337e-17
+            ],
+            [
+              0.3542130651510522,
+              -0.06581058902556083
+            ],
+            [
+              -8.326672684688674e-17,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 48,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 23024.14187373428,
+          "refs": [
+            [
+              -0.2826576898813282,
+              -4.163336342344337e-17
+            ],
+            [
+              0.3578707809546289,
+              0.23032413970382126
+            ],
+            [
+              -8.326672684688674e-17,
+              0.0
+            ],
+            [
+              -8.326672684688674e-17,
+              0.0
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 57,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    },
+    {
+      "hop": 23,
+      "chosen": null,
+      "candidates": [
+        {
+          "n": 1,
+          "feasible": false,
+          "score": 20022.42581286447,
+          "refs": [
+            [
+              0.3542130617437661,
+              -0.06581065959653651
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 24,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 2,
+          "feasible": false,
+          "score": 21522.50581286447,
+          "refs": [
+            [
+              0.3542130617437661,
+              -0.06581065959653651
+            ],
+            [
+              -2.220446049250313e-16,
+              -2.7755575615628914e-17
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 36,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 3,
+          "feasible": false,
+          "score": 23022.58581286447,
+          "refs": [
+            [
+              0.3542130617437661,
+              -0.06581065959646451
+            ],
+            [
+              -2.220446049250313e-16,
+              -2.7755575615628914e-17
+            ],
+            [
+              -2.220446049250313e-16,
+              -2.7755575615628914e-17
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 48,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        },
+        {
+          "n": 4,
+          "feasible": false,
+          "score": 24522.66581286447,
+          "refs": [
+            [
+              0.3542130617437661,
+              -0.06581065959646451
+            ],
+            [
+              -2.220446049250313e-16,
+              -2.7755575615628914e-17
+            ],
+            [
+              -2.220446049250313e-16,
+              -2.7755575615628914e-17
+            ],
+            [
+              -2.220446049250313e-16,
+              -2.7755575615628914e-17
+            ]
+          ],
+          "terminal_x": 60.203225568537775,
+          "evaluations": 60,
+          "failure": "degenerate_flight_rise",
+          "terminal_recovery_viable": null,
+          "candidates_full_checked": 0
+        }
+      ]
+    }
+  ],
+  "recovery_events": [
+    {
+      "hop": 10,
+      "control_mode": "active_emergency",
+      "chosen_refs": [
+        -0.05297868447838261,
+        -0.4363323129985824
+      ],
+      "predicted_event": "touchdown",
+      "predicted_safe": true,
+      "motor_work": -16.93613244186513,
+      "event": "touchdown",
+      "errors": [],
+      "duration": 1.143999999999874,
+      "start_x": 58.6032695648938,
+      "end_x": 64.27085531556803
+    },
+    {
+      "hop": 22,
+      "control_mode": "active_emergency",
+      "chosen_refs": [
+        -0.6457718232379019,
+        -0.4363323129985824
+      ],
+      "predicted_event": "touchdown",
+      "predicted_safe": true,
+      "motor_work": 4.636920406792655,
+      "event": "touchdown",
+      "errors": [],
+      "duration": 0.4040000000001349,
+      "start_x": 60.118920998807695,
+      "end_x": 60.203225568537775
+    }
+  ],
+  "crossings": 1,
+  "total_time": 20.892000000000316,
+  "config": {
+    "robot": {
+      "body_mass": 1.0,
+      "foot_mass": 0.035,
+      "body_inertia": 0.015,
+      "wheel_inertia": 0.003,
+      "body_width": 0.18,
+      "body_height": 0.22,
+      "foot_radius": 0.012,
+      "leg_free_length": 1.0,
+      "leg_min_length": 0.18,
+      "spring_k": 450.0,
+      "spring_c": 1.0,
+      "gravity": 9.81,
+      "friction_mu": 0.85,
+      "supply_voltage": 48.0,
+      "armature_resistance": 0.16,
+      "torque_constant": 0.05,
+      "back_emf_constant": 0.05,
+      "gear_ratio": 5.0,
+      "gear_efficiency": 0.9,
+      "current_limit": 50.0,
+      "relative_wheel_speed_warning": 190.0
+    },
+    "controller": {
+      "stance_kp": 20.0,
+      "stance_kd": 0.65,
+      "flight_kp": 3.0,
+      "flight_kd": 0.7,
+      "max_stance_ref": 0.6457718232379019,
+      "max_flight_ref": 0.4363323129985824,
+      "wheel_rate_damping": 0.003
+    },
+    "sim_config": {
+      "dt": 0.004,
+      "max_stance_time": 1.5,
+      "max_flight_time": 3.5,
+      "min_flight_duration": 0.06,
+      "min_flight_rise": 0.025,
+      "max_touchdown_pitch": 0.5235987755982988,
+      "max_touchdown_rate": 2.0,
+      "contact_iterations": 16,
+      "contact_margin": 0.0015,
+      "contact_beta": 0.12,
+      "allow_body_contact": false,
+      "record_stride": 1
+    },
+    "goal": {
+      "target_x": 60.0,
+      "tolerance": 0.05,
+      "max_crossings": 2,
+      "safety_max_hops": 25,
+      "min_progress": 0.015,
+      "stall_hops": 2
+    },
+    "planner": {
+      "lookahead": 4,
+      "maxfev": 40,
+      "landing_pitch_weight": 6.0,
+      "landing_rate_weight": 0.5,
+      "postimpact_rate_weight": 5.0,
+      "recovery_rate_weight": 1.0,
+      "slip_weight": 2.0,
+      "terminal_speed_weight": 18.0,
+      "moving_away_weight": 8.0,
+      "recoverable_deceleration": 2.0,
+      "near_goal_speed": 0.8,
+      "recovery_probe_time": 0.1,
+      "continuation_candidates": 1,
+      "continuation_probe_count": 3,
+      "require_full_next_hop": true,
+      "intermediate_speed_weight": 0.45,
+      "emergency_maxfev": 10,
+      "emergency_reference_levels": 3,
+      "require_terminal_recovery": true,
+      "max_planned_postimpact_rate": 3.5,
+      "passive_fallback": true,
+      "max_passive_fallbacks": 2,
+      "energy_weight": 0.0,
+      "hop_cost": 0.08,
+      "reference_cost": 0.03,
+      "invalid_cost": 20000.0,
+      "position_weight": 100.0,
+      "verbose": true
+    }
+  }
+}
