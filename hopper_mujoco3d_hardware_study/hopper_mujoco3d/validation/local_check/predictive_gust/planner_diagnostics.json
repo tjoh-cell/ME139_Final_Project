@@ -1,0 +1,140 @@
+[
+  {
+    "evaluated": 8,
+    "safe": 7,
+    "failures": {
+      "body_collision": 1
+    },
+    "status": "next_hop_found",
+    "cost": 54.03841713802917,
+    "hop": 1,
+    "time": 0.0,
+    "chosen": {
+      "stance_ref": 0.6108652381980153,
+      "flight_ref": 0.0,
+      "thrust_scale": 1.0,
+      "label": "velocity_feedback",
+      "foot_placement_gain": 0.44
+    }
+  },
+  {
+    "evaluated": 8,
+    "safe": 7,
+    "failures": {
+      "body_collision": 1
+    },
+    "status": "next_hop_found",
+    "cost": 42.50004805580041,
+    "hop": 2,
+    "time": 2.37599999999996,
+    "chosen": {
+      "stance_ref": 0.42574644669394673,
+      "flight_ref": 0.0,
+      "thrust_scale": 0.65,
+      "label": "rollout",
+      "foot_placement_gain": null
+    }
+  },
+  {
+    "evaluated": 8,
+    "safe": 7,
+    "failures": {
+      "body_collision": 1
+    },
+    "status": "next_hop_found",
+    "cost": 33.86535822897665,
+    "hop": 3,
+    "time": 5.299999999999638,
+    "chosen": {
+      "stance_ref": 0.381713714181906,
+      "flight_ref": 0.0,
+      "thrust_scale": 1.0,
+      "label": "velocity_feedback",
+      "foot_placement_gain": 0.44
+    }
+  },
+  {
+    "evaluated": 8,
+    "safe": 7,
+    "failures": {
+      "unsafe_touchdown_attitude": 1
+    },
+    "status": "next_hop_found",
+    "cost": 21.686948023412665,
+    "hop": 4,
+    "time": 7.783999999999365,
+    "chosen": {
+      "stance_ref": 0.3883300681786659,
+      "flight_ref": 0.0,
+      "thrust_scale": 0.65,
+      "label": "rollout",
+      "foot_placement_gain": null
+    }
+  },
+  {
+    "evaluated": 8,
+    "safe": 7,
+    "failures": {
+      "unsafe_touchdown_attitude": 1
+    },
+    "status": "next_hop_found",
+    "cost": 12.99051876366545,
+    "hop": 5,
+    "time": 10.614000000000214,
+    "chosen": {
+      "stance_ref": 0.3618551860565596,
+      "flight_ref": 0.0,
+      "thrust_scale": 1.0,
+      "label": "velocity_feedback",
+      "foot_placement_gain": 0.44
+    }
+  },
+  {
+    "evaluated": 8,
+    "safe": 8,
+    "failures": {},
+    "status": "next_hop_found",
+    "cost": 2.3780957046103097,
+    "hop": 6,
+    "time": 13.122000000001051,
+    "chosen": {
+      "stance_ref": 0.33271688339722616,
+      "flight_ref": 0.0,
+      "thrust_scale": 0.65,
+      "label": "rollout",
+      "foot_placement_gain": null
+    }
+  },
+  {
+    "evaluated": 8,
+    "safe": 8,
+    "failures": {},
+    "status": "next_hop_found",
+    "cost": 0.6480457244533712,
+    "hop": 7,
+    "time": 16.026000000001996,
+    "chosen": {
+      "stance_ref": -0.016128633643892984,
+      "flight_ref": 0.0,
+      "thrust_scale": 1.0,
+      "label": "brake",
+      "foot_placement_gain": null
+    }
+  },
+  {
+    "status": "goal",
+    "evaluated": 1,
+    "safe": 1,
+    "cost": 0.0,
+    "failures": {},
+    "hop": 8,
+    "time": 18.504000000000623,
+    "chosen": {
+      "stance_ref": -0.1572351905419509,
+      "flight_ref": 0.0,
+      "thrust_scale": 1.0,
+      "label": "velocity_feedback",
+      "foot_placement_gain": null
+    }
+  }
+]
